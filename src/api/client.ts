@@ -2,9 +2,9 @@ import { mockCategories, mockTechnologies } from '../data/mock'
 import { getFunctionCategory } from '../data/functionCategories'
 import type { Category, FunctionCategoryAssignment, PaginatedTechnologies, Relation, Stage, Technology, TechnologyQuery } from '../types'
 
-const mode = import.meta.env.VITE_API_MODE ?? 'mock'
+const mode = import.meta.env.VITE_API_MODE ?? 'static'
 const baseUrl = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '')
-const pause = () => new Promise(resolve => setTimeout(resolve, 220))
+let staticTechnologies: Promise<Technology[]> | undefined
 
 type ApiTechnology = Omit<Technology, 'id' | 'name' | 'category' | 'stage' | 'relations'> & {
   id: number | string
@@ -44,9 +44,31 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   return response.json() as Promise<T>
 }
 
+function loadStaticTechnologies(): Promise<Technology[]> {
+  staticTechnologies ??= fetch(`${import.meta.env.BASE_URL}data/technologies.json`)
+    .then(response => {
+      if (!response.ok) throw new Error(`無法讀取靜態資料（${response.status}）`)
+      return response.json() as Promise<ApiTechnology[]>
+    })
+    .then(records => records.map(normalizeTechnology))
+  return staticTechnologies
+}
+
+function filterTechnologies(technologies: Technology[], query: TechnologyQuery): Technology[] {
+  const keyword = query.keyword?.toLocaleLowerCase().trim()
+  return technologies.filter(technology => {
+    const functions = technology.function_categories ? [technology.function_categories.primary, ...technology.function_categories.secondary] : []
+    const text = [technology.name, technology.description, technology.category.name, ...functions.map(category => category.name)].join(' ').toLocaleLowerCase()
+    return (!keyword || text.includes(keyword))
+      && (!query.category_id || technology.category.id === Number(query.category_id))
+      && (!query.function_category_id || functions.some(category => category.id === query.function_category_id))
+      && (!query.stage || technology.stage === query.stage)
+  })
+}
+
 export const api = {
   async listTechnologies(query: TechnologyQuery = {}): Promise<PaginatedTechnologies> {
-    if (mode !== 'mock') {
+    if (mode === 'rest') {
       const params = new URLSearchParams()
       Object.entries(query).forEach(([key, value]) => {
         if (value !== undefined && value !== '') params.set(key, String(value))
@@ -55,38 +77,37 @@ export const api = {
       return { ...result, items: result.items.map(normalizeTechnology) }
     }
 
-    await pause()
-    const keyword = query.keyword?.toLocaleLowerCase().trim()
-    const filtered = mockTechnologies.filter(technology => {
-      const functionCategories = technology.function_categories ? [technology.function_categories.primary, ...technology.function_categories.secondary] : []
-      const functionNames = functionCategories.map(category => category.name).join(' ')
-      return (!keyword || `${technology.name} ${technology.description} ${technology.category.name} ${functionNames}`.toLocaleLowerCase().includes(keyword))
-        && (!query.category_id || technology.category.id === Number(query.category_id))
-        && (!query.function_category_id || functionCategories.some(category => category.id === query.function_category_id))
-        && (!query.stage || technology.stage === query.stage)
-    })
+    const source = mode === 'mock' ? mockTechnologies : await loadStaticTechnologies()
+    const filtered = filterTechnologies(source, query)
     const page = query.page ?? 1
     const limit = query.limit ?? 8
     return { items: filtered.slice((page - 1) * limit, page * limit), total: filtered.length, page, limit }
   },
 
   async getTechnology(id: number | string): Promise<Technology> {
-    if (mode !== 'mock') return request<ApiTechnology>(`/api/technologies/${id}`).then(normalizeTechnology)
-    await pause()
-    const item = mockTechnologies.find(technology => technology.id === Number(id))
+    if (mode === 'rest') return request<ApiTechnology>(`/api/technologies/${id}`).then(normalizeTechnology)
+    const source = mode === 'mock' ? mockTechnologies : await loadStaticTechnologies()
+    const item = source.find(technology => String(technology.id) === String(id))
     if (!item) throw new Error('找不到這項技術')
     return item
   },
 
   async getCategories(): Promise<Category[]> {
-    if (mode !== 'mock') return request('/api/categories')
-    await pause()
-    return mockCategories.map(category => ({ ...category, count: mockTechnologies.filter(technology => technology.category.id === category.id).length }))
+    if (mode === 'rest') return request('/api/categories')
+    const source = mode === 'mock' ? mockTechnologies : await loadStaticTechnologies()
+    if (mode === 'mock') return mockCategories.map(category => ({ ...category, count: source.filter(technology => technology.category.id === category.id).length }))
+    const categories = new Map<number, Category>()
+    source.forEach(({ category }) => {
+      const current = categories.get(category.id) ?? { ...category, count: 0 }
+      current.count = (current.count ?? 0) + 1
+      categories.set(category.id, current)
+    })
+    return [...categories.values()].sort((a, b) => a.id - b.id)
   },
 
   async getRecentTechnologies(limit = 4): Promise<Technology[]> {
-    if (mode !== 'mock') return this.listTechnologies({ page: 1, limit }).then(result => result.items)
-    await pause()
-    return [...mockTechnologies].sort((a, b) => (b.created_at ?? '').localeCompare(a.created_at ?? '') || String(b.id).localeCompare(String(a.id), undefined, { numeric: true })).slice(0, limit)
+    if (mode === 'rest') return this.listTechnologies({ page: 1, limit }).then(result => result.items)
+    const source = mode === 'mock' ? mockTechnologies : await loadStaticTechnologies()
+    return [...source].sort((a, b) => (b.created_at ?? '').localeCompare(a.created_at ?? '') || String(b.id).localeCompare(String(a.id), undefined, { numeric: true })).slice(0, limit)
   },
 }

@@ -1,0 +1,147 @@
+{
+  "name": {
+    "zh": "加密貨幣",
+    "en": "Cryptocurrency"
+  },
+  "domain_category": {
+    "id": 6,
+    "name": "資安",
+    "description": "保護資訊、系統與數位基礎設施"
+  },
+  "stage": "growing",
+  "development_stage": {
+    "value": "growing",
+    "label": "成長階段"
+  },
+  "description": "加密貨幣是一種數位或虛擬形式的貨幣，利用密碼學技術來確保交易安全並控制新單位的發行。它通常運行於去中心化的系統，例如區塊鏈技術，而非由中央機構（如政府或銀行）發行或監管。加密貨幣作為虛擬貨幣的一種，其獨特之處在於建立在區塊鏈與密碼學之上，具備透明、匿名與不可竄改等特性。",
+  "purpose": "旨在提供一個去中心化、點對點的價值傳輸系統，獨立於傳統金融機構運作。它用於實現安全、透明且不可竄改的交易，並已擴展應用於去中心化金融（DeFi）、非同質化代幣（NFT）及智能合約等多種場景。",
+  "paradigm": "去中心化網路架構；區塊鏈技術；密碼學；共識機制（如工作量證明、權益證明）；點對點（P2P）交易",
+  "key_points": [
+    "去中心化：不依賴中央機構發行或控制，由分散式系統記錄交易和發行新單位。",
+    "加密技術：使用密碼學確保交易安全、維護資料完整性並控制新單位的創建。",
+    "區塊鏈基礎：交易記錄在公開、不可竄改的區塊鏈上，確保資料完整性與安全性。",
+    "全球化與高效率：支援點對點跨境支付，流程簡化，交易成本相對較低。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "07",
+      "name": "安全門鎖型",
+      "label": "security&access",
+      "description": "保護系統、資料與資源，並控制驗證、授權及存取權限。"
+    },
+    "secondary": [
+      {
+        "id": "06",
+        "name": "協定通訊型",
+        "label": "protocol&communication",
+        "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+      },
+      {
+        "id": "09",
+        "name": "資料儲存型",
+        "label": "data&storage",
+        "description": "保存、組織、索引、讀取及管理持久化資料。"
+      }
+    ]
+  },
+  "created_at": "2008-10-31",
+  "relations": [
+    {
+      "target_id": "NET-006",
+      "target_name": "Web3",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-010",
+      "target_name": "點對點網路 (P2P)",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "kaspersky.com.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTm8MtoaDI1zW2Q0L3cU085DXsIIItnGhvGGMxtNVcEMOgWOOiihXFq069dGtTNzBW6aaxXYxKVAcxzZSA-goL8cpirx3YFeI4-6VS2Vn8o8jnSksRsNHOitUtOKzUajy6VNeaxMIfwB9H01-x3FYCoHTtcTpovI9L1qM0fwEH5TPdEHQRfFNKVX0="
+    },
+    {
+      "title": "chainee.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEVaVWEUBFtJsFtdgtqys8oIUfubfApcm4k1OCG29k0ZYyWQyxMemRChEdfisbz89NwEpyjR4De_z2W5CzaKy04QnaEQvFTsahEGTP9x-DGpBNa41X0OGOIKRzhgQc3FWjB51Srp9oydXl2plNyIYt0_JWOg=="
+    },
+    {
+      "title": "kgibank.com.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcyrAbaJZ8iRWdLKdDY3X_Ku_fUtwpNXpgzN_HZNHsMRSAj7UqDqZhFEHjgddUz7vv6M8Ois86xL6-91rqCvg2hOEKcmEI3SZ5njInlPjLQZ6eBpqwDx35uM38zKAcqlRaYCWGvNwolUeDHQpn7KE1ZoQnJDGjgx9yzhSX7UfDXQxtGTGa-Q=="
+    },
+    {
+      "title": "avatrade.com.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDFa248TwjspT0wvltG4CSgjfRb8qANI_McFCCTW9l8uPNFsYqoK_MtVXXJ0p5gKtm73LHAOLTqxGD3jgq3aht_zcYTkc8yGvBMRPGfhgd8wVVMFpKZKWQe_-GBMd6hPKnwVTziS2Y1TxWHa_5EtTL1kCyhj5hrH8eLIEBgdcVAwM="
+    },
+    {
+      "title": "trendmicro.com.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZQxTf9Uo3SeAkRGtF8sCcNT-xuBNy5gJuYKDDRa-0qAVpV88gmStam3XKn3tii9fJOq-ncCnSK7ksFqw29a6DI7Uc9lfgmfTPVTxPKZnitF7VbL4zs048AvTFYlW5FT-O_Q=="
+    },
+    {
+      "title": "kaspersky.com.hk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFgK7K2k9z2N2P0p-TTEBx0BpNNrHL3nrpaHML7Zuur4HF_N0kDYZrcZUoeuvC-D2yjr1-TCgYKUUS2I-x-KRUEyFKmxtof8-dkY4WR9jh0443drksgZuFlz-6VzS4vkZirBM42uy-l7-F-mzAfkjNd6idrNSBfdsfPdHqErRjhjTMm1mLPoN32u8="
+    },
+    {
+      "title": "preface.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjVkmxzpgtKeqxAKrGRtqgDhd46qnaW9vJnNF4CL4FURzLW7WHT2-o6kBUKQDaJjMm0gXv9crXFuR3COCRQe-zUre1DDdDfrIDAr7rXhIDqOabzeC6_dw2yKkAE6AsgK2Ic64pNlV1QdPI0RPpCO4Q42lRb3DSe0wtVx5FNL2lk0brFMqU3kU35LWX"
+    },
+    {
+      "title": "binance.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlL4Vccdbrg-KUZuCg452UbpxW-YCCC_UooqRkXQndZ4meqwbjZhSzqSkXyjt7yMlGNAvfQaVzhLBttglxHtWkfL48eCaODazV73vA2n54xrBJzhUcFyUMvpklN5Hp1w-hZ4zbbsIC1t1irDtt3poKlkOHIZJT2CZXBLWgvAd669aP"
+    },
+    {
+      "title": "bisancos.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9nTnlvnlZHeOVmDNy5c1s-gSKrsH3HZt80qDOt8Z-w0shfW0cfIBkRleQjeUdHY_Ao4sQ6srzzkPh0VEygQgOYiXXnZGmAEVZMoWffNqczw_EZwqBRrXRm_ALTxOIvYGMK64u54qerI-QY3gLHv30-DsR8H2Q3_FNXFaMIkRvJVzUi_lJ71XY9E3hfgC8Iq5EqcgC0LXO"
+    },
+    {
+      "title": "binance.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqFJC5Jyq4SrS8tJFvS9u27Cmh1pg-_n2liyQ3fWLzGBHvpbII1evzHPzdQZ9KVqBywQEEPlDzu9YPPQDVozewMyCEnsqXqiB2PEJy-xFqg_9HuhmcO-9pFTHTQ0uZy_20F5xc81OirIxQIjtPiVydI9Mu"
+    },
+    {
+      "title": "pressplay.cc",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa0NmP77sszKwfMJLHnWh3HagFgC4GV7DFXTISAPsZvaZaNzfy4Ktf_fDN_WwTbr4UGuZtdRZWbJ_os5br6eunNi_3XB79c5V8NYvox0Q982hEI9_ZD4nXCgyBn0c0_gPxdXXwrtEUDR_sbw4bkrJsk78BcmgdKyT8QdbADxA8qCV_167cpBHdgO99vbxqXmsGbppS8JPegW1jHX9MnVIKw9SZR4n4"
+    },
+    {
+      "title": "moomoo.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyolX8sRVo5CsfIea30t__S_LXlRhA_fSw3WgIshQ8wA6kNWWA7CX5Zd2WCzlt_na9MxmelBNOXChRMfluqX-MK_OfIi7bowF92izZ95WnsqFW_yJabGNqCYwJK-nV5Q_OmKDahfQmjWO4mP4Dvkt0pV7qzaXo4PPNb1TmvEruG7sq1HWRrFGKPJCHO_5S"
+    },
+    {
+      "title": "titanfx.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEFZQINTadG3LaBzhYtQ6jab-DVF6FaSiL4f-T3CTtH2c5zNwp6ZgftTSFuxbxAY1vOKbjcsBub7tePTVpS2gqq5J4eW7zWGnhYEc3MR6JWlkMtSPpRvx3BjnevJmFF5_AYmDp1TlZDBSCV0dPn8IutTqEhePGgIMg9LU_2Kb9sogiiHdw"
+    },
+    {
+      "title": "ndc.gov.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlhJOxDp4M4xFnvSlppbDOzhv-4FKUDV57GJqZfGkXAfXhNa52OxD_A2mrjn85k_aIV76Ai4laWP_cTBHwPFdK0S7Z7iixYSeP-mTjT8VeRUnhei9lzWMckyqVvi5Y09cLzmtu88vHQqIXi5f2RMfqyTmvn9siON0oKLmXH-XxrU6BGVLH4bXzwWIVLftTPIvWL2UZZNDtJVviurIYn_UGP2F1KKQ8Zqn7fnwUt5-SOQaiBnZzORAbS4K2yBSi9UNImp4RT5Zyj3cKYMauh3uNgXQalMr25wx9rovci0aI5qRhnOuiXHQ08hC0L_2ZtAJcB36yPsGEve6t6xocy5_4NlzoiWN4-VBaSF1QZA=="
+    },
+    {
+      "title": "onekey.so",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG86n7oYU7a5xR-thfWfdGicJXPhzSlaDabTygtY8MJNMYNrGujtCoom8cS0A--gmE5C8-g0hMDK1eIcq2ugA_nmYLhYRKdtUxmcidXYhf02ECKXjIQbybfA4p2PD3JuAbyCLCSNJQ5qBsKDHETcC6tNbT9tvYC2XVrNzlJ1FrQMQ-sdA=="
+    },
+    {
+      "title": "fx168news.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjIxFI-zu8c46Du8BsAFZLMop2BKgrwpar09M02QSaXcqN8R2eRtp4YEbbSthH1R1MEoYZ1od5SU-NaH078JjpGKZsLwxumsF8V3RQSlk-ZqO63TlNLN38zL8AOWI36valx_Y="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe7QJl6xeFlBdpWD30I95WagtY2-03FtBtGztZUTXf8eoHpHXCi_WWcRekXjOVGM1vZioMAQKVHwVv-ltOvCm_Cnxr06JUHN51OS4lO4bfew8cnDCn3Ac9BJ_wNGvlNaOqe_MsQAk2V9gbfvAUM8qI-K58JZHa09cQ8kWFua2hrCbW6t-YvuaHN2JQNo3ki4ttP48nvWmSoPzsPnQ41ml9qoVRhvfiwER-N8DFmurer9eqjWzIyG0xFc7xL1y-zGTn5OlnohTj96Q8wuB0uRzyH5ixR9BIO0axEh2Oo0gw0j9WHHcqisVujCo7E6z4XanVGEKzWYpjwtII2NLF5i7msXuODxrkNHpatTp3ZY85v9aVuf8HPR0r0Q0oTf_RjIjCJg4_6tlS-j0dRVIwbssSHxHldh4QBVzvPAeDSO34qSXL5gB_jOLHg09N7fbIFkwGuGoCULKjZydNQqLtjf9FL-xNjtLXdybOky50RJg3Nf3BYOrm3Bc13ctJe1E="
+    },
+    {
+      "title": "gate.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJAoDTtTLVJnOeCPy2PkahKK1uO_xtmDJaxwQ_vYQLlprYXJi3HWxOYrqIjajrJkL-muXZW-EwoNAoKISWoixy7yJLkomCWX8zGyKN1u5Nvi6S2qYQUagohSHeaJP4bljfmrVfw3AeTjTeWEk6rzWBjIWeCalSfjndO_B-yW96j7UmpDdxQ6Og1xUmrp4rOiQTQDXIdRKX9-EPP7bGMvh8kRtxif72xu6YsCKvRLutIDWb2Y1Eu8hoB6s="
+    },
+    {
+      "title": "oanda.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVb0SkB0PDdkh_ukmMQ0Intrlkzg4QOSjdzdur3R9RLgvuRj6M08P_CV4E5G7AdhuY0uAM8kGuv4SSQLtROzaHGcn1n1fdiuRy2XzjNaFni03hdVqhh8Y4l5kN3Qhm-a2cIDUN1fAPpA5DhTKdRExdw464YENYB1QH-hawwAw9FKl9OM3OTBA="
+    },
+    {
+      "title": "stripe.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1Jl61C22xpDZcJS1pbg05C4nAFFbNWx2v0YzSML9WNTn725woQ2WwI2QfWUKuA-foPxnlx64c9ZyRHta1EdixoBC4o0kSQaz1KcmoVNJ67XvkVIg7L4VW54IXIz5c3IUltshhXhMzHscBODgc"
+    },
+    {
+      "title": "bitget.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY9RJ0MS9kGgBdp9U15cC9y_IHqf7NS5kM4LQUmnecL9yWapN6VdyqWd-ZDCN7PR6TGUASVXFNdx2FbIPXsIJ2iwOmV-Hq_ov0flL7jRs0yFalhorK7WFemeD_5CPAhWT99csk841yhKJHOTJtJhK8YkSXdLAZyLjSizXB4phkuEJzBGdZRA6FRTJG"
+    }
+  ],
+  "id": "SEC-003"
+}

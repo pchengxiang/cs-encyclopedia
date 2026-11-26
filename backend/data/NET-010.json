@@ -1,0 +1,138 @@
+{
+  "name": {
+    "zh": "點對點網路 (P2P)",
+    "en": "Peer-to-peer (P2P) network"
+  },
+  "domain_category": {
+    "id": 3,
+    "name": "網路與通訊",
+    "description": "連結裝置、服務與資料的基礎"
+  },
+  "stage": "mature",
+  "development_stage": {
+    "value": "mature",
+    "label": "成熟階段"
+  },
+  "description": "點對點（P2P）網路是一種分散式運算或網路架構，其中參與者（節點）直接相互共享其資源，例如處理能力、儲存空間或網路頻寬，而無需依賴中介實體或中央伺服器。 每個節點同時扮演資源提供者和資源請求者（客戶端與伺服器）的角色。 這種去中心化的特性使 P2P 網路具有高韌性、可擴展性，並能抵抗審查和單點故障。",
+  "purpose": "旨在實現參與者之間直接的資源與資訊交換，減少對中央伺服器的依賴，從而提高效率、韌性和可擴展性。 它廣泛應用於檔案共享、區塊鏈、即時通訊和分散式運算等領域。",
+  "paradigm": "分散式運算架構；去中心化網路架構；每個節點同時作為客戶端和伺服器；可分為無結構、結構化或混合型網路。",
+  "key_points": [
+    "去中心化架構：節點直接相互通訊與共享資源，不依賴中央伺服器。",
+    "雙重角色：網路中的每個參與者（節點）同時扮演資源提供者和請求者（客戶端與伺服器）。",
+    "高韌性與可擴展性：由於資源分散在多個節點上，網路更具彈性，能抵抗單點故障，且隨著更多節點加入，整體容量與效能可提升。",
+    "應用廣泛：廣泛應用於檔案共享、區塊鏈、加密貨幣、即時通訊、分散式運算等領域。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "06",
+      "name": "協定通訊型",
+      "label": "protocol&communication",
+      "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+    },
+    "secondary": [
+      {
+        "id": "09",
+        "name": "資料儲存型",
+        "label": "data&storage",
+        "description": "保存、組織、索引、讀取及管理持久化資料。"
+      },
+      {
+        "id": "08",
+        "name": "計算運行型",
+        "label": "computation&execution",
+        "description": "執行指令與運算程序，或提供程式運行環境。"
+      }
+    ]
+  },
+  "created_at": "1969-01-01",
+  "relations": [
+    {
+      "target_id": "SEC-003",
+      "target_name": "加密貨幣",
+      "relation_type": "implementation"
+    },
+    {
+      "target_id": "NET-006",
+      "target_name": "Web3",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-007",
+      "target_name": "WebRTC",
+      "relation_type": "implementation"
+    },
+    {
+      "target_id": "NET-009",
+      "target_name": "選擇性轉送單元",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-003",
+      "target_name": "TCP/IP",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZFcxqT8n_w8Zb_ZyO_U8Sm1sBTSVRWqKSJC4L4uIJB5bq95k7B0pbWqvvKXebovW_r4NSV7VzJT-EvpSUc67PbiGDdKcuIVUqi1TSedXtgRQKPXR-mFJRIfjJP0N-rJH6qW0j"
+    },
+    {
+      "title": "coursera.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzN6x_lBi6fGJv3HYRIFk_SHqWeWv7oZTY885kt6wY05Af4YQDDnukhbu71CWTeasJnyZcTyDcZAI4nP5nMT9oEnEVSWfMGIKv1AsYrr8Nqlt-mNWczIumsScF898S5NPRs9VhzsD13A=="
+    },
+    {
+      "title": "vbrick.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeBpbz3VZd1Xcc5ouuO_G1YobEGQaQOBUU575Ffhx9FXFHmPDa3mDegNlg7tqbEQMIdRlBqcqyLCfcM33s-tHF98wUzAwdJj9aa6ZEDkZoIVhZf-8Af1rV6FdWxyAXaM4uEPkAlFlUkg=="
+    },
+    {
+      "title": "brave.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVmqY3vZuCT1FEgTFQR9PGnw6lcq_v6N_U2SnJrGxX43Sbcw64rSjg4pagI8F-rCmDAOld-26ROYkqPfzifGxN3CHNI_jmMMJkCtkYEAh02qq_VLh3yZv0eBUHZKwL_8E4Yw=="
+    },
+    {
+      "title": "binance.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-iNghlb3Abx-kMN4Pdb2AsZt6A70SG9ESG1oSN5HsYBfwwY6H7jC0etu2wH4Bz7gcWvAB2dFD77dHfja_Sq8-WbupzkdJBi_huxbogYVjogjsNfSYwTs_zCLlrvQscGE-hWF-O61qbQo="
+    },
+    {
+      "title": "binance.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIR39uFBLPedOUvTaPbtekBPGb5aYSrxsLWpSzm-ln0kDyV2hOM8AI2qy8E_EvzgC_ofkVmZ8a9-7_5QH_eWLZEBxLXVY9cLEpLpUdIeHMbx3rk1yMfd8wdZIDbqfxSGV5efVB5c_781r-hPuwRxmsJc1QFaILwl-9lUR12-nnGJRJCQU="
+    },
+    {
+      "title": "geeksforgeeks.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtRd-FDquchpq1dbEiqmZDzH8lfrFV7sdGt2CivrqKG-SRG2oqyUdZUXVtE5fhgtEvKF3R-Xj4bmpY_5kPFLQoMGxsDskbv6iMg-ftiY_GlnhH0F4Ws2nMXkbo5kpPJk4y1SKra40MYkQ7z83QV0IboUje7IStknSXA72_ON-e0XD_3xo="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEip_PTPhQREobmLaHpj-j2fg-Vdhs3j8r8qhQgejLe1GE8As48gEkahH7pbfGuyXrJl-j4KBJh2qPznWRqcLav8N2vAG2ECaOlV7jbAA9F4DWMXdpFGvj-aOPt0kzafwPq4lOBPJ_wmaJ62EAYFOTEiS6S3u7CCGoNTB7H2YY0QG2RXC3SoLZSz2pbi_AtaOy5uMpFVDqtc8ZI0mm4Itk8uU7OsvHIht_5WtQS"
+    },
+    {
+      "title": "wondershare.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCPk_Q7HiWJ9DxKUq6dV-utd4tgPP8y6JxBJkFgfUoi9cJYI3sFGy6MdubFQ-LTLy8EPFvixwjzFPJJPGaD3CmVZebc-gHjY72_v6aUhH-KWQwmykUZoefQTYLmOWqJjz_CIL_8wTx38PgOrH4PcfD60Qd-IaP6dFrdlciBliVZpc="
+    },
+    {
+      "title": "geeksforgeeks.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdTAap7djt9WoMK7pCHM0ojmtJ0f92K1f9BnuaKfVnsCVmWxsQF7DtN3efmCv7Gt80tIWUjmHCsnukKLpuexZ0rxIixJ3o_sU9L6ehTub_ivsH73D205zrkf9q0AS-UCx4u-JK5EyaTfyJ-ufv9PHDLbHwuatwCS3UirOw7oXG0ESdxAPuEbz2Fda4"
+    },
+    {
+      "title": "flevy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUw0PB2qUjDPJmeu4832_TlEF3qFFtJt2EReDi5jMwqnhKPif4I0mk4kZvZp_90kBVZiEcQNTFZrTE6bc7UaOYl-tFCcfpOlQBNQgomZKkPYCcHosn7OIqwtkdOXCKONa82QTUKN2LpYmDW6Hl1i8RRynR_Hv5hTy2g01d1KkOB0U6HaU2_MMrPCeOj2F27Q6LWlKo46wlHG-ZQdABANuiIGMPC5-OW8m1ig=="
+    },
+    {
+      "title": "idc-online.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4fQ_lKOgC2-sRo3UeAJ-xgu_s8DKoMQUKX_rSiGTSD6pQJMSNbt1or_uxBdA2D7XYkW7cforBY5DeWa33A8atkJ04fVg6C90GjeTiExa_4YBAEH9gFgwoMErbSuUhxyiwVIYdZ6WS32H9tLUXMjzn-tI7BcYVHse4XhiIcRXWvvtcc5Fdi1oCykL4p6CBFhPvXdTqEC_e0S70EIPpgpjmpCrbeMLSo4OW8IKsSGQ4CA=="
+    },
+    {
+      "title": "identity.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7KoRWwxp9vi_KRVZN4z6kLK9ADCQH5o5GlOaT7WltDmHcI9d1cYQrQlLczOaLixlKf2yjXWXGKVGkIPhzSVZMYer5rTgCvY-vCeMAfhboyFXHtevYn_9mXqcmlgpu5jS3RiPifLybKA=="
+    },
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKn3FdBGeynQZg212q8UdVGj_j7G-99RL_i5Rn4_4yOtOPa9OwuqRCXIIhvOwXrTqt2M4eTTmGjWjH5U3V5Wpd4zVvtRDl6tWsB4FlHDjz334yTyR_qe5PFeqw8npmgXEwGz0w6f71vqenGzwam3t0Y1yoKbZ6B1onhjgB1qlV7DghXIPi9Dp5dFcbU9vgehV9avaR-Jwh5v6txrQ="
+    },
+    {
+      "title": "ituonline.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUTtqmZD8WLIf1SZJSGUgNddikPS7iGZlFrJ8hZnwz7yvFo-FTg4noWcyFxnV106IvvK9NSyMhjLp28FC4VYUP7zrOCUW9qB9SQ-nZ8FFmKlgizmbS0CQk7tyDQAOYGUkJP_PS6haQ1M3PIgj-d5nSZ69Si9BK6IsCZYh9rPQM91rgXL0TI2CXK2gC_eCEGgHtgDfr60rRtz3-GDkYAN6PWEl30BZko1A="
+    }
+  ],
+  "id": "NET-010"
+}

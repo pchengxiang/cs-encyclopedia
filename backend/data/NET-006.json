@@ -1,0 +1,160 @@
+{
+  "name": {
+    "zh": "Web3",
+    "en": "Web3"
+  },
+  "domain_category": {
+    "id": 3,
+    "name": "網路與通訊",
+    "description": "連結裝置、服務與資料的基礎"
+  },
+  "stage": "emerging",
+  "development_stage": {
+    "value": "emerging",
+    "label": "新興階段"
+  },
+  "description": "Web3 是對全球資訊網未來迭代的願景，其核心概念是去中心化、使用者擁有權和無需信任的互動。它旨在將網路的控制權與所有權從中心化實體（如大型科技公司）轉移給其建構者和使用者。 Web3 的基礎技術包括區塊鏈、智慧合約、加密貨幣和非同質化代幣（NFT），以實現資料、資產和身份的數位擁有權與管理。 它常被描述為「讀、寫、擁有」的網路，與 Web 1.0（唯讀）和 Web 2.0（讀寫）形成對比。",
+  "purpose": "建立一個更加開放、去中心化、使用者擁有資料與數位資產，並透過程式碼而非中介機構來確保信任與協作的網路生態系統。 它旨在提升隱私、安全性和抗審查性，並促進新的經濟模型與社群治理形式。",
+  "paradigm": "去中心化網路架構；區塊鏈共識機制；加密經濟激勵",
+  "key_points": [
+    "去中心化：將網路的控制權與所有權從中心化實體轉移給使用者與建構者。",
+    "使用者擁有權：透過區塊鏈技術，讓使用者擁有其數位資產與資料，而非平台。",
+    "基於區塊鏈技術：以區塊鏈、智慧合約、加密貨幣和非同質化代幣（NFT）等技術為基礎。",
+    "無需許可與信任：任何人皆可參與，且透過程式碼與經濟機制運作，減少對第三方信任的需求。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "06",
+      "name": "協定通訊型",
+      "label": "protocol&communication",
+      "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+    },
+    "secondary": [
+      {
+        "id": "09",
+        "name": "資料儲存型",
+        "label": "data&storage",
+        "description": "保存、組織、索引、讀取及管理持久化資料。"
+      },
+      {
+        "id": "07",
+        "name": "安全門鎖型",
+        "label": "security&access",
+        "description": "保護系統、資料與資源，並控制驗證、授權及存取權限。"
+      },
+      {
+        "id": "16",
+        "name": "編排協調型",
+        "label": "orchestration&coordination",
+        "description": "組織及協調多個服務、程序或元件按流程共同運作。"
+      }
+    ]
+  },
+  "created_at": "2014-01-01",
+  "relations": [
+    {
+      "target_id": "NET-003",
+      "target_name": "TCP/IP",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-001",
+      "target_name": "HTTP",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "SEC-002",
+      "target_name": "Passkeys",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "SEC-003",
+      "target_name": "加密貨幣",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-010",
+      "target_name": "點對點網路 (P2P)",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ethereum.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHngNj-dwVaNogAqTLLxd0C4NJsE9DtxsA6eAx6m2xwQ86ZS5pQiwVK24fL2hvr64jQ_370yBvLnA9Cj6hs1dUNWt6jyjBjWl5jYIS5w7d4g8gnhbTx"
+    },
+    {
+      "title": "amazon.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4pmTLnb6bnvLeCB4-lw_HPy2tJsSRQ2Wyq3RRkm-OM_FRxtIdUZDEXWdcwnjkcaITvTiaHbu8oRcB_8xdKj803NDpaXCjcusTlMtYiMBBrdfkJsUWOZ2o__H0S_yeOw=="
+    },
+    {
+      "title": "mckinsey.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxZXeCQRmanUTQGS17KVIofsgHVOrWTXnD2VbEG2dZRaxMBiqeXzW6vgfTJqh9vxUJVXu1ofMJi0jKeqTWZoHJVgNcoug2VWyV93kdcsGS3hgjQ9aO-fvmm1mF-KC9utRFq55K_f3Hs9vOo8PP07BvJpGFW-iNfO0jBJVB46NRO5zvLeLt7g=="
+    },
+    {
+      "title": "blockchaininstitute.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXf-xAd5xAkBZQs8hA2u2si0QjUJKRbkfRVf_CEU42Ivc7L4hR0CFYzq4X0AsK1nvbKxPsGfWnaWgNAxUDJQXYxJfFds8Gj0skbJMLve16wCOCicz5mJp7FZX3ZQwuP-75frPjeHpwMTr6aMYSiQ=="
+    },
+    {
+      "title": "ourteamclub.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt-9Bt3LeTAfkoNh82VQUz7GQ_bvA72JW5IEhLBPYQ3z5jpd4mHm96_fp_3HY2ZyDOOyLyC54YEX_KmRUDU6ARsDOeS73QJjm0G9SpazmQNpE8lFMCpsQspalmWCVoYG-DMBGz1ZFa83fRBgpnaXcCtywahQyMcorvSN3a-FQ8nMk2roS1u5r376ZUtEr0Gg=="
+    },
+    {
+      "title": "snapstack.cz",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbd2aCe83-pJ6SbKVyyibjOzSyM0xyAgkM1r6rp3uE2Rldu8CxYYOIQeZb8VnIy13iYowj0XuyPQn-fRYEk-AV9Z14f782de31ZA3xth1qhKPO1aHTciyWxHArv4a14ALzuKX0uIJL5MWlUFRNyxdTggDi6FeNwUfjERZGeKpMZP0DVx0b6BWbTRk="
+    },
+    {
+      "title": "chain.link",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Qx5kxEfAZd7LnxrxQr0L08iGRpAjBwcYliQ-3-zTbmq6lK8zMSt58HCZE6jgSuIGj3_vTC52i3AJOo3osaCymWKEe_skTLny8DAer0Xtoe1aulQ6GIgEr_KHAg=="
+    },
+    {
+      "title": "ovhcloud.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5fOgRf_oTTN8t8IXVryuijgfNprJM3cC7RrddqoW42rdKD7sZTZrDkB7zC9vexi7Yk7lbbiRSroyCTjf-OlanHqwluVbunj4lxUOQm61ecMdIorHb732r3z99XbPsJfu2t2fDmtk3q-AB47s="
+    },
+    {
+      "title": "4irelabs.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfr9dtDLS14CVSs_IeZRmSvIshZEmwHNgvzCyNnzF7DeUz1RqX9ZpVjRvYy02-O9MFMN3RVrXGs5bn9quiWmOJc6LEXTIHlXe-Z3oJh7eSb8p9nCtaVXlzPuyTFUpEDbD-NI67g71GhZk="
+    },
+    {
+      "title": "delta6labs.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhj6JZuTgbC9CDNHSMn1AmRUjBzvNHrZh2GegSiPCm6dNseSLYQF8rKheXWWhR9Njr3GRxKayH3ThTzkgJmX-YIPTQIO3w-t9eoN2Dxf27NlAhiLWbSqvg2GxrO1LRmLUQecnT"
+    },
+    {
+      "title": "ciente.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBZE2b4DBdQOQg88L0O--7u13VYMq4BAqCRI8HBG3NVTxNYsgUGuYsmJXLZQdoqdQBUA_D2CEXoGx1GfgQNpmKYZ-BFIJ-755-ZuV5UI6h5Jg0riKJ_NXu1KVe_hHfbsvrcg5tk_-BioaAnkOcDeGuA0b9fR9_K1g9eHXgrwJ7kAnOe4D3"
+    },
+    {
+      "title": "my.locker",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH06FfImRMDOmSnbPhXUL0AB17pV0lg3WlOUVacp1LlaCwo82tyaoBUGC5FWIy9ZiwqFMPIJRxt8Bz8hjsXrzSg4gtd9CEbum4iIwIhnnQeHKKEqHN5lojcIa6zxGHC5-7zuOaoKKex8s5XCQV3MINu6kdYWT_wTbc51JUDDeb"
+    },
+    {
+      "title": "dsb.edu.in",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIA4p6TSjtwPtFAXuV2hGi3tFMB1vqjzcbfMsFdFqrBdh1gp9cPV7miuR2n4GDqDG1P_JpZNZY9lrO_L3Zje-KBDBiXErHcK0u9y4FQEwjeHVuyPaC5uJYIlHfa1SGKpZXds2Cx1GKzEp0jdZ3RmJloRPTuw2ba1GF8wMLfhO4usqnug9oMZEi5g=="
+    },
+    {
+      "title": "aicerts.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGazZwv52dun-y61YNXj7yXpzmTyQd4FEGyiBclXVDfVYpwgawUJjzjqjhksnBUINxEikEHXqtJ3I1c07s4LA5IUTSvgTppNWt_cquFHmc7dLJhU-AldU3Nkr9Bl7a9K0MQ2koacbS7VfTgNZqTkzrrQt5PLoqbTxtcAw8hiKNtf_jTdbFfyCO5nK3CiRrkQhNNGq3-DwoMYg=="
+    },
+    {
+      "title": "virginia.edu",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElOPX5Y8R3uAe0kfVeG1BTffWElTA1PlMQ2x4s0fU2PtOhGqqGEMPBxIGs0y7GVEPbZYCfVs63gteaJhUJac8GNQHLqFENLNNGiSo2ky9jTSP2lZXWx_yOSj2bvfTwwcDsjH9GwQ6hhOn1lRG59GCf"
+    },
+    {
+      "title": "coursera.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7XfwraVDudDNd_p-1yHCShP6yWWJJmY_jBHCSG0MI5VQYx3ybksmoUr7yCyIzbwYw_LzAExGGDAG-ojgyWwmV_mw6E6lC-q3wo2G0QQAzZSwGyBS6q7q6581hU54A-6RTAcmhVtA="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHl7-Zl60i1qwTlfAjYqNn33pDdmC9oVVjhiOFNSmeQhtJnAqO3e3YbfmFuDGUhEQi-SpQtZLbYLMtjGi2MDwwUF-scjOY0gHVwqqjGJc7aPckA9409Rg1Kyby6kA="
+    },
+    {
+      "title": "javacodegeeks.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTwTN62WcagJTxxFvhVaswV-avm-KOiY9uSwbdGgGmbaoeuw7R4OGUoYuf1YRIgPTg1PdFf4cuhhj7aykh9LKmv5cJjqZF7-3zr917qKdEzOzvMfhAYXIBh6Snloek4nEe7fRqv8OzI9ME1nFtFQflta0CiLCpr4weQFAehvWu-7653nI="
+    },
+    {
+      "title": "forbes.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhqt466s2YiUzcewSN3XM4YDavbTah7FXHyljypxWPvL2cjeLCwftvqM5l1XWa2Z_hF4iWh380yG17fiBM7eszXdXz6pD0_oFtA7t6yOva4U1H97seWDLzfEYBqPZSM6cLEb_tnz1_GDyFUItlSGiuALU9wPKWk1kwyv74616dkea-UpW_TQZqd4-JPgwWr1HDqVBkdgBWr7x3gSie3KbPjd6qbNUDpF0="
+    }
+  ],
+  "id": "NET-006"
+}

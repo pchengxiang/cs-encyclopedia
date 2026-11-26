@@ -1,0 +1,124 @@
+{
+  "name": {
+    "zh": "腦機介面",
+    "en": "Brain-Computer Interface"
+  },
+  "domain_category": {
+    "id": 2,
+    "name": "人工智慧",
+    "description": "讓機器展現智慧行為的技術"
+  },
+  "stage": "emerging",
+  "development_stage": {
+    "value": "emerging",
+    "label": "新興階段"
+  },
+  "description": "腦機介面（Brain-Computer Interface, BCI）是在人或動物腦（或腦細胞培養物）與外部裝置之間建立的直接連接通路。它旨在實現人類大腦與電腦或智慧裝置之間的直接互動，透過捕捉並解讀大腦活動訊號，將其轉換為可執行的指令，以操控外部設備，繞過周邊神經和肌肉。BCI 可以是單向（電腦接收腦命令或傳送訊號到腦，但不能同時傳送和接收）或雙向的。根據電極放置位置，BCI 主要分為侵入式、部分侵入式和非侵入式三種類型。人工智慧（AI）在BCI中扮演關鍵角色，用於分析腦波數據、識別使用者意圖，並提升系統的精確性和使用便利性。",
+  "purpose": "腦機介面主要用於實現無需身體動作的溝通與控制。它能幫助因神經損傷或疾病導致運動功能障礙的個體恢復失去的功能，例如控制機械義肢、輪椅或輔助溝通軟體，甚至恢復語言能力。此外，BCI 也應用於增強人類能力，如認知增強、遊戲互動和虛擬實境體驗，並可用於神經系統疾病和精神疾病的診斷與輔助治療。",
+  "paradigm": "腦機介面的運作典範涉及腦訊號的採集（如腦電圖EEG、皮層腦電圖ECoG、功能性磁振造影fMRI）、訊號處理、特徵提取，以及將這些訊號轉換為可理解的指令。為提升解讀精確度，BCI系統常整合人工智慧和機器學習演算法，以分析複雜的腦波模式並識別使用者意圖。部分研究也強調人腦與機器之間的相互學習，以優化溝通效率。",
+  "key_points": [
+    "在人或動物腦與外部裝置之間建立直接連接通路，繞過周邊神經和肌肉。",
+    "依電極放置方式分為侵入式、部分侵入式和非侵入式，各有不同的訊號解析度與風險。",
+    "廣泛應用於醫療復健、輔助溝通、智慧控制、認知增強及神經疾病診斷與治療。",
+    "人工智慧和機器學習演算法在腦波解讀、意圖識別和系統精確度提升中扮演關鍵角色。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "04",
+      "name": "轉變資料型",
+      "label": "tech&info",
+      "description": "轉換、分析、生成、編碼或解讀資料與資訊。"
+    },
+    "secondary": [
+      {
+        "id": "08",
+        "name": "計算運行型",
+        "label": "computation&execution",
+        "description": "執行指令與運算程序，或提供程式運行環境。"
+      },
+      {
+        "id": "05",
+        "name": "系統接口型",
+        "label": "system&interface",
+        "description": "建立不同系統之間的識別、存取與功能介接。"
+      }
+    ]
+  },
+  "created_at": "1973-01-01",
+  "relations": [
+    {
+      "target_id": "AI-004",
+      "target_name": "機器學習",
+      "relation_type": "implementation"
+    },
+    {
+      "target_id": "AI-001",
+      "target_name": "大型語言模型",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-005",
+      "target_name": "生成式 AI",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7j1tg3vWd7a1r0rDeNGqng02S1EKIkS13sTa8DRT74erQxHxLk3g-OyHrsMKJzJhrVwYcuqSd60S1daOblCaCeJrXgLiHteK8E011C7vBrcIgL5CScAE5UPljs1Mn5q__dA0ZOrl3UaziYjk6kjudOcUPasi-_x77LLcuEgA="
+    },
+    {
+      "title": "emotiv.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-m6SHkyvX9VsLKTFLo7QiNRKxo7_aZyjwhugMTPCWDrwVtJlCXeWkd_nvQWHKre4Mc7m7ByJ94ar8qelAej9wqEcVV5bxjelXYjry0gukfxsYBrsAFqhgK63yLlpwuUMFZ975W3XypDHpm_SK6lAEdpTE0C6cmNfEylgm6finYNbtMgv9aRo="
+    },
+    {
+      "title": "moea.gov.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5tZXsYwalvbhdKdTLoK64F6J-egmhTZ5WjaM27Kiaey_ITqwXMN4oLY49JLBnglwKW53YhNenvYbPk9ONeHLmP24_zsUvfI-c_jKet98v8WUlFcjRxPg5SFbvCKMvD1NTSAcx8uSmTUfMD71PcZP7GGrtoKXcyapZPOy1OHwVl6TUBusifvC5OwSpG6KUUReOyQ=="
+    },
+    {
+      "title": "cirs-group.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCSwLWUkMd8Da6K_CGfsFgvaozTpjSS_HY4DlaM8uz-Bs-MNZXrvpuL4lEklMlGdCqobNkkux-XTO5khu8T2gzbrV6qNYwPU9aesosDxN-KOU8FtUwg9cD041ViNbvLVuiES1rxuFnigdcDirGmGFbF4pC6UpohvOaRc_P3phkkonZGZpuYm7Iz0Ej"
+    },
+    {
+      "title": "makerpro.cc",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdCa_yQ3VacH603iwtJA_wHVSYZJtdooyaCwv8rFtqCDfGJ_PB9eRDLT86AyyU74EZbUMIykSNbpk_usLPqpI9CUo9jMLCk-z5-Urd136JNRo1oe5qvNpz-duvcQDcuUsR"
+    },
+    {
+      "title": "trychuangsheng.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUur38U6kjHIPMeASLxmJ6UCRz40wpEitvOPbpnoyTgm6e5e71lRxr4fkYxdg70zi8dDTIsi8L2lf-gqlRu0HkMlSDndr8YBKJnY2VVNXoZ0vHH2sRMQpuRcJCL0jc1rP29L0="
+    },
+    {
+      "title": "xml-data.cn",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH088GUdzFOyDtz-5Qj86QbtxMW_2YYLFukMHCmkIKVt-yhhRrlr3lsm8SXeFI6xWSwHRssExaARAb_0IfWrsKBLF6SzriY74mlCv7FJetvkC-j6zkRCDsggAQIWrr18Os6q7AFzzTeum3T1zLjgACUQvtpNfdz51OnlEkGZskwupq40XbJ"
+    },
+    {
+      "title": "aif.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQJfSSuCRBvRqp6QysKqJT3pstLJfG7Ypc3UpZd-cElCjpas2scv7b_jCrlMH92-Ss3djeIAhOHh_FBX0qUiO1j0YKdg4e2FIro7dCQAhYEhBjPY0Vto4j842QEW4pGDrn2JqEq_MrPQ=="
+    },
+    {
+      "title": "healthnews.com.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzfpa5JM1ZBB0AMRjyZToQBvTI-7cs3irJIUY-usGzL2aEWagEF0cagoySGcWTyDyU1ysnp_Dtb2BRQPVfHijueY-6NIWtO7Kri34ecQXFPfVC46FSRA710wD5cf6H0cryvUXNKjE="
+    },
+    {
+      "title": "ambiq.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU37XRaTeE8dchBadNuMRcNbfNwHrGL6Z8FRKiAVAFSL_bnXIthnKHILbJ7AdZM0q7tx01CjjzLtEbpUS6Nqah1IA1v4OekO6wk2Gs_1fL751UTUEFtjSjeB7IQ7kqyD_vQJKkVSoeI4yK-vIIHslfTmLiUwPPOsvgT2fW996QxOYH4G4eWMM="
+    },
+    {
+      "title": "ucla.edu",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4VzX9OQNLLxTONIkvtO-_Gxnb7rQADYu50Ah_thq1tJe54F1E8ObNo93nlq_1jFSKMYNqjqdyo7QVuCAZf4xErL6xu3z1oqbOMr4wK75OMJhXmV5wo6FRWlD14LsDVjNTZEbHYaL_WdFZgm2MO1a2HnqQ5k3rtqxZzvdUhGASblO_HXeyU5oQtxJazFcHk6QWIpyZ56N3Bl67q_bk_kW5sQH51AEpqmo="
+    },
+    {
+      "title": "ntu.edu.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa-x-igUSwiuzHADDWOJFkgF9R7anonnIluCWqED7rZe9q7fK__L5ouPDVf2H9xnbLfPR-rNqpOXgdKXNYlJwUAI9kYF9vyspOMEG01yhZl8D8LGWgoSv7PvyCR7_adn8="
+    },
+    {
+      "title": "emotiv.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGfhhQ843SsnXOCFBrSlxRrOluvRxSEdTcotGTs9fRDSnc9PQvB8HMUwLO8cC-y6-UxQEKgUSRoWXKX6teGolGYYOgjIFwamEBisfX0WZErm_JbyRYtbTLcs_HAlVHsmTdiwzaoZOh46ZpLOCuZYXjaU9uftALn6O1kOdCKRrP9IDy0Sk="
+    },
+    {
+      "title": "sinh.ac.cn",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmtF7RGphOvfihZbkip7SAvX7L1ODr0NJvccPZCnrsmbQIFZVJ4QTeZXMCk5L1atMi8oGWkL_5l2S-V4QxnDQbqlLle5eEj-MQtoDyVQw8aBXLvUWSYo2IRfdsQ6GqJPzolXYG-ABMigL2WfCZ"
+    }
+  ],
+  "id": "AI-006"
+}

@@ -1,0 +1,145 @@
+{
+  "name": {
+    "zh": "Socket.IO",
+    "en": "Socket.IO"
+  },
+  "domain_category": {
+    "id": 3,
+    "name": "網路與通訊",
+    "description": "連結裝置、服務與資料的基礎"
+  },
+  "stage": "mature",
+  "development_stage": {
+    "value": "mature",
+    "label": "成熟階段"
+  },
+  "description": "Socket.IO 是一個 JavaScript 函式庫，旨在實現客戶端與伺服器之間低延遲、雙向且事件驅動的即時通訊。它由一個在瀏覽器中運行的客戶端函式庫和一個用於 Node.js 的伺服器端函式庫組成。Socket.IO 並非純粹的 WebSocket 實作，而是在 WebSocket 協議之上增加了一個自訂協議層 (Engine.IO)，並提供自動降級機制，當 WebSocket 連線不可用時，會自動切換到 HTTP 長輪詢 (HTTP long-polling) 或 WebTransport 等其他傳輸方式，以確保連線的可靠性與跨瀏覽器相容性。它抽象化了底層連線管理的複雜性，讓開發者能更專注於應用程式邏輯.",
+  "purpose": "Socket.IO 的主要目的是簡化即時網路應用程式的開發，使客戶端與伺服器之間能夠進行即時、雙向的資料交換。它廣泛應用於需要即時更新的場景，例如聊天應用程式、協作工具、多人遊戲、即時儀表板和通知系統.",
+  "paradigm": "事件驅動的雙向通訊；客戶端-伺服器模型；多重傳輸協議自動降級機制；持久化連線.",
+  "key_points": [
+    "提供低延遲、雙向且事件驅動的即時通訊能力，允許伺服器主動向客戶端推送資料.",
+    "具備自動降級機制，優先使用 WebSocket，並在不可用時自動切換至 HTTP 長輪詢或 WebTransport，確保連線可靠性與廣泛相容性.",
+    "內建自動重連功能與心跳機制，可優雅地處理網路中斷並自動嘗試重新建立連線.",
+    "支援房間 (Rooms) 和命名空間 (Namespaces) 功能，便於將客戶端分組，實現精確的訊息廣播與多路復用."
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "06",
+      "name": "協定通訊型",
+      "label": "protocol&communication",
+      "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+    },
+    "secondary": [
+      {
+        "id": "05",
+        "name": "系統接口型",
+        "label": "system&interface",
+        "description": "建立不同系統之間的識別、存取與功能介接。"
+      },
+      {
+        "id": "14",
+        "name": "開發建構型",
+        "label": "development&building",
+        "description": "協助軟體開發、版本與依賴管理、編譯、打包及交付。"
+      }
+    ]
+  },
+  "created_at": "2010-01-01",
+  "relations": [
+    {
+      "target_id": "NET-004",
+      "target_name": "WebSocket",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-001",
+      "target_name": "HTTP",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "LANG-004",
+      "target_name": "JavaScript",
+      "relation_type": "related_language"
+    },
+    {
+      "target_id": "DB-003",
+      "target_name": "Redis",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "apidog.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrz5qty2DKqYI9pZDkbIkMxyn-yD8c5rQ4mYMGsKCXtxW7gsVSDN1qkh_7qulQm8DrexrXDnszO5ks-3AigUTceMJXIFSE69nAVdW73HDoc8Cdueel-o_MffJJWtw="
+    },
+    {
+      "title": "w3schools.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk-WPuAW3X2EnSGtaCwR6gZ-OgHjQck8q4AQcz3FTNvMHQe4O5yYI5GGMKEM6eMREZMj-WarbOLT07_l7SQU-1XesKZwdNxo5YtawzxODmuwF38EzBlxdXkyZ84TWqDaROzFGMeq5zHqBrr_iu4qs="
+    },
+    {
+      "title": "socket.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoYQ1bkjoD5sXCUmu7xCVg_2P7V_mze1IFLs2_GLkBGLM-YfWTuxsg9X5bbdyTJJ8im_XocYmKWYz3XoxLIuH09maDXb0Bb7Zz9d9PX49jcHH2uhOb"
+    },
+    {
+      "title": "socket.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ3ITjb2rpa0GDt3qePpxcne6YK5-Kke0OaYy4KJH5sjRRpJAqAnnaoj3p0mTowaEDfLxWZJgN6GJ6vbIUQs_s97xZxPCFAo9NS_ij8Yz_ESk5ONYv"
+    },
+    {
+      "title": "synfinitydynamics.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXxLzH0w8rKQMOCY7b7I3y68PC_dnUug4RIHNZufi6EbXU2axLdkBhyKIc4e42sEuPZ8qUpP57qcHfml5xbSr5hGSAJntV1-GARlcsZDw0pTW6a44-_svCQy_Bikl4pm1WN0fH3K_argO0MnJFEFt8CZ7edXxgWkkzGUZctaHmC6bKP4Vrb2nd"
+    },
+    {
+      "title": "nhimg.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpRA814i4r3I2P29Wch6t2zJRgK0m1SJda9l9OS8pYcTIaBTeimmmEOpZeRFwt9p6X92FonTNHFMGVzumCNdADX-JsioLnLhMnH2arzskSk7aCZjCOE1Y4SSf-f-bNXw=="
+    },
+    {
+      "title": "ably.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbZPIQ9VSEH2iIuBwlDpnqRAkbChtgdg8ucCJ1byJfsDeljp9DVfnhGBAOqbtOxl5r24jrZekjjZkedgKF7W9nsaN1PWBReIXGvdbs_hGu_ygDP4v-BVjWoVjI1eVb459BH63kFw69"
+    },
+    {
+      "title": "websocket.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwUvnvBmHtxRFKWE6OltXSsrc3D04mG09oLL0U5VXBJ2ut9RC6JlxvZg5dwPf7X9d_AoKlNicL5dRZN_m9Vp0kZmMkLsTCSI4lAXzm-p--_JrCsWNc19winjQ_NPZvQhctkkpi7h5Y"
+    },
+    {
+      "title": "apidog.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwvPmWa4uIJavBHiBYsYREGjlgWxr0prg_EFLg9e3Pn08ZZyVFZ24cutkUryIfrdggbz1s4Zy0gDUU7fwy7FHLTHaOI3bTKDsL1W3LL9qz2YavvMyzc7Y6VLsooevjJOfL1M2UNV3_jZ6O-QhPlg=="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ_dJ5B1kxVkzu5SoA1IvYn5cT-FsFlwTu2VJrvL-C52YP-UinDWkQ9BKGuSqARhVAX9xWEz6pBIzyonQLBN8aDcEJvPTy9pFsN5BYmkynrEumiY61mbtZrzo3_myfdy3jEAHDLH5jPC8OrZt_OhcridLyYK-Xl12qmDKNkQ7KiSCKCLIcCKMWlus6zPtjvmgyl_7ZhHzDCxKJuZ5X9i6ZSQQXMshFRXilWz-nLQ=="
+    },
+    {
+      "title": "echoapi.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGefRD923PNQQnaCSlvvjbPga0TN6Sa6ESg76JJynFmBlDGEjvSCWLVkbjWyZmSEMXgWZHKHrb6OekEoAWcYzqtLD-jllIk7D6ZJFvS-kriZ65n1IWhGjyShRsiENlhEE4b3SLhudHz9f8xTxR75tyo4nOsSfFWx3RGxf8IP4bGs_-hbR3ByCIiYbjRULS5ZbRH4q_rvkKZa1F3NZ_ymLlz1k0_aVwTT13k66uOr3s="
+    },
+    {
+      "title": "cybermindworks.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbL3p6o_rxtPJSKEPgfN4p1GL2NHEsQMNNmTY7xkbFvahCPaRuX0-wnFCBDkz3HRsfRdd7i5pPEDwiOH9g0g7G5pq6IEO31enp9rirdln8iNB8xTXgi7JXO1pmRjC_v0HJ-EwP0XH5IWWIVW2YxQi9cL5gJydn57oMw_L7JN0TXb3BK2Z4BUkwTGoC"
+    },
+    {
+      "title": "stackoverflow.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc4BIUW1nInEmIPUbqAyJCEO8FJ3uIVU_9lV6kPJYsv7wcxxB-LMd9vBsSTTxosoSw5PkODWD4i89dMJngDgJTUwSm_n9WzmMJnZ3AJqHJOmNGaT63RE_vyxG-aDql6-PqChPfg69BLF7et5730zcdNsVScFwnLRrJOxBMMio6e_ki8Eq7MtWX7vneU5TSL51A6tY="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHauZG8EmrAmMSQ7xvlIUNZg4v9Vb36eobNHCifyQe2vPvon5-sqYUwBbNrbnulCq6nLgmdeK0qH1DbprjyZW5LQmMMCqIiRRHfqDJTMeRVwOBlqOZ333FEEf6lBauOIeI5ig=="
+    },
+    {
+      "title": "ably.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnVtdvUwR-iz5k0RjZpNxnUfLtx39Wom3vnOcMXDbF4LaDK2i5_Ws1OlWQlM5hHDRXAgCk1lmSnGrQKcSvjdAPhkw5N9maKiF3KY465IsqYCtpsixHJtmRUk="
+    },
+    {
+      "title": "github.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-4TUiR2sZUKRC32LS3CDFKtvSy8E7r8OH8NjxTYeG4VqBHc2FWE4M-SP16INLnYM0-awyrVNLTWTH68_fXC9STdzCYenSnSoGW7MAGSyIejsHz-stXlGDtFVKm_yNuVmeGH3dO8q3KPTydxEJgH8VngXRjXi41c0="
+    },
+    {
+      "title": "socket.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzOCk7Uasy6fMiPxkDmTOl2Wkn5EMIUH0x99v5OdhyZWJMEAwNBHmZZrgiZuSh42KE05QRtxu7ozUBwTbpSsQv3E9-GT51z3twHLGeALXuMO2Es1nzzEUit-UvMQZ6RA3P0Q=="
+    },
+    {
+      "title": "socket.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXqU1s1LS6z5c3zGoxo18WfGy6EWICiAbmbBUw9KjTtL9YQFfz2_AnDmmWWtL0OAf6NndFKaRhIGWCa69rykgFF9thGDeES9Rz7ILt_Yl6YYFpO5GglYWYNMZF"
+    }
+  ],
+  "id": "NET-011"
+}

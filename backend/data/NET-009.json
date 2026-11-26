@@ -1,0 +1,105 @@
+{
+  "name": {
+    "zh": "選擇性轉送單元",
+    "en": "Selective Forwarding Unit"
+  },
+  "domain_category": {
+    "id": 3,
+    "name": "網路與通訊",
+    "description": "連結裝置、服務與資料的基礎"
+  },
+  "stage": "growing",
+  "development_stage": {
+    "value": "growing",
+    "label": "成長階段"
+  },
+  "description": "選擇性轉送單元 (SFU) 是一種媒體伺服器架構，用於即時多媒體通訊系統，特別是 WebRTC 應用。它接收來自每個參與者的媒體串流（音訊、視訊），並根據接收者的需求選擇性地轉送這些串流給其他參與者，而無需對媒體進行解碼或重新編碼。SFU 旨在解決點對點 (P2P) 連線在多方通話中的擴展性問題，並提供比多點控制單元 (MCU) 更高的靈活性和更低的伺服器資源消耗。",
+  "purpose": "SFU 的主要目的是在多方視訊會議、即時串流和群組通話等應用中，優化頻寬使用、降低用戶端裝置的處理負載，並提升通訊的可擴展性。它允許用戶端靈活控制接收到的串流品質和畫面佈局，以適應不同的網路條件和裝置能力。",
+  "paradigm": "SFU 的運作典範涉及參與者將其媒體串流（通常透過 RTP/SRTP 協定）上傳至中央伺服器。該伺服器會檢查這些串流的元資料（如編解碼器、解析度、影格率），然後根據每個訂閱者的頻寬、螢幕佈局和發言者等因素，選擇性地將這些串流的副本轉送出去，而不會進行解碼、混合或重新編碼。SFU 支援聯播 (simulcast) 和可擴展視訊編碼 (SVC) 等技術，以提供多種品質的串流版本，供用戶端依需求選擇。",
+  "key_points": [
+    "作為媒體伺服器，接收並選擇性轉送多個參與者的媒體串流，而非混合或重新編碼。",
+    "相較於點對點 (P2P) 連線，顯著提升多方通話的可擴展性，並降低用戶端裝置的處理負載。",
+    "與多點控制單元 (MCU) 相比，SFU 伺服器所需的 CPU 資源較少，且能提供用戶端更大的佈局彈性與更低的延遲。",
+    "支援聯播 (simulcast) 和可擴展視訊編碼 (SVC) 等技術，以實現適應性串流，優化不同網路條件下的使用者體驗。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "06",
+      "name": "協定通訊型",
+      "label": "protocol&communication",
+      "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+    },
+    "secondary": [
+      {
+        "id": "04",
+        "name": "轉變資料型",
+        "label": "tech&info",
+        "description": "轉換、分析、生成、編碼或解讀資料與資訊。"
+      },
+      {
+        "id": "10",
+        "name": "資源管理型",
+        "label": "resource&management",
+        "description": "分配、調度、限制與回收系統運行所需的計算資源。"
+      }
+    ]
+  },
+  "created_at": "",
+  "relations": [
+    {
+      "target_id": "NET-007",
+      "target_name": "WebRTC",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-008",
+      "target_name": "LiveKit",
+      "relation_type": "implementation"
+    },
+    {
+      "target_id": "NET-003",
+      "target_name": "TCP/IP",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-010",
+      "target_name": "點對點網路 (P2P)",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "getstream.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKiJmVH2qUwght7m_MViOUQ8gf7U2VN-Wdi2TjhT4JGXMIkJJYQ-bzve6qfFb2eNt9XqWWNEYK1yUq_649ZtiPZd_l2ikxlleT-CaXCnn_PMe7-FWblTT8RprsUQvIswkCojEuYsxyGfnIYKUGItUcjOpl3cZ5YxH87KJ4SahGyZj9ow=="
+    },
+    {
+      "title": "liveapi.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbK6F2mSIS7NozNHWjyE-wwUYO723Kkkfq_m0mwEEKNCxW358PjWaB-oRqVE3QkFbefy1QQ1k-kyGJe1Y7HlB7R2-jbeeu7wvcqO4MLmMG7TXRb9SZfPIzaEgeNQBkEg=="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2qRb13yvh3rIa3lPHW-OOSXB2eXWZuhlf_RBQWa6KB7RBlYP_wvh3pDbOab6pqEYzY7at6VMETj--BNr4AIR1RjdesiDkUdosQoLI-OZwO1ajXVNsmhWrkZWwZ1a1tnBFgthVEsiwhL85NjJMcYheVejEJfdOQQ7CU_v3EuGQjEWLbiiaOPqK"
+    },
+    {
+      "title": "bloggeek.me",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2yfOCOiEDaAaIDZoXWAlxHPxAd_zB78zHp-xryCID2iE2ENRpfliITXyYtT6mjOGtMBQrSyWBTEXk9yEFTnNGK_340DoXPlTmU2zacZ54ocCk45NuRkubf1buPdhqwFO6Eg=="
+    },
+    {
+      "title": "red5.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5GKVSL2jhUz1USbGNzi-cAWPKkxAORnPSSiS5T1lz0XkU8LRQJl0zH9Ny7udvWdoJjmv4fK4BHpZYNPxsdnlHQo291Ok34dmRitixkUTRDfOy7_ON37wA_0U24TL6jaXHcVlTa-go5aYmyTcirlbvjj-BHfHAS01z"
+    },
+    {
+      "title": "forasoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVgeibRcuG4OqLWsi0RurxfJ0FXvMx30TqMSAykqeg4yR9fwAjaCHqMPT9bLvtGlNQDIDpDUh1uivMCPzvlMJIXi851dK-rgCj-iB0t0fn5xRejzeL3mdX75ALOVA7ryYT5h0abSd5guRObud1qW8ruYqXvM8tOeKaFqhaX1_0OC0oxwP6T1mt8fGk23qI-90s7BHO"
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8PymKrli_HyycZKkzy2SU9HlP7AxFR1vd351drabURxZNfrSAQlMfIn4lpMZd8O8VKzsCDR2PwkLJGsuQhinqxL39dAlgcDnuzVXHwlNO_AyvEIvB27LaMFjTIm3WYUdoG79dbrRzRGkbIv53r4IkLt582Sl_w80CStwkqsazYH4NiZZlUrIlR-mt"
+    },
+    {
+      "title": "juejin.cn",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJgavsyOhRrGhFMzidFnQLOZ4lCVfo3Am0HqJxFRuvLVvE71Klw-jgrscjMZwRQ04hmso_5Vjhsd1nxe2zz-fe85giHvmi1XnR5u2iOf3Qn2EpVR3oq5GaSkP5s4L4QIhZTiMhww=="
+    }
+  ],
+  "id": "NET-009"
+}

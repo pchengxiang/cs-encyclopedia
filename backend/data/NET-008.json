@@ -1,0 +1,130 @@
+{
+  "name": {
+    "zh": "LiveKit",
+    "en": "LiveKit"
+  },
+  "domain_category": {
+    "id": 3,
+    "name": "網路與通訊",
+    "description": "連結裝置、服務與資料的基礎"
+  },
+  "stage": "growing",
+  "development_stage": {
+    "value": "growing",
+    "label": "成長階段"
+  },
+  "description": "LiveKit 是一個開源框架與雲端平台，專為建構即時音訊、視訊與資料應用而設計，特別著重於 AI Agent 的開發與部署。它基於 WebRTC 技術，提供端到端的即時通訊堆疊，包含可自建或雲端託管的媒體伺服器（Selective Forwarding Unit, SFU）以及多平台客戶端 SDK。LiveKit 透過其 Agent 框架簡化了 AI Agent 的建構流程，使其能與人類進行即時語音、視訊與多模態互動。",
+  "purpose": "LiveKit 旨在讓開發者能輕鬆建構具備低延遲、高擴展性的即時互動應用，例如視訊會議、互動式直播、遠距醫療、線上教育，以及整合語音、視訊與資料流的 AI 助理與客服 Agent。",
+  "paradigm": "基於 WebRTC 的即時通訊；Selective Forwarding Unit (SFU) 架構；客戶端-伺服器模型與多平台 SDK。",
+  "key_points": [
+    "基於 WebRTC 提供低延遲的即時音訊、視訊與資料串流。",
+    "包含開源伺服器（SFU）與多平台客戶端 SDK，支援網頁、行動與後端環境。",
+    "提供 AI Agent 框架，支援語音處理、輪流對話、多模態事件與大型語言模型整合。",
+    "支援雲端託管與自建部署，具備高擴展性（使用 Redis 與 Kubernetes）與端到端加密。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "06",
+      "name": "協定通訊型",
+      "label": "protocol&communication",
+      "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+    },
+    "secondary": [
+      {
+        "id": "14",
+        "name": "開發建構型",
+        "label": "development&building",
+        "description": "協助軟體開發、版本與依賴管理、編譯、打包及交付。"
+      },
+      {
+        "id": "16",
+        "name": "編排協調型",
+        "label": "orchestration&coordination",
+        "description": "組織及協調多個服務、程序或元件按流程共同運作。"
+      }
+    ]
+  },
+  "created_at": "2021-01-01",
+  "relations": [
+    {
+      "target_id": "NET-007",
+      "target_name": "WebRTC",
+      "relation_type": "implementation"
+    },
+    {
+      "target_id": "TOOL-001",
+      "target_name": "Kubernetes",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "DB-003",
+      "target_name": "Redis",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "LANG-001",
+      "target_name": "Python",
+      "relation_type": "related_language"
+    },
+    {
+      "target_id": "AI-001",
+      "target_name": "大型語言模型",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzJurT_0dYNSdAhVMCM4BKickdi9Y8zTkrMvq9gXLWd1AERmkiGxqTXYvzz6QRWKwDLdKlmgBBGg8k7XgFrGOYWdFdvy-tlGV9-6wlgj4y2ZPqX3ws"
+    },
+    {
+      "title": "livekit.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECt8o9_n3xGrwAycRSOpgix6W5S3gA4p0YySlTFf7koZDPPYTNodllKDs7_RozrgxypNGY_4XMmdXKoqIX3iXArUPRO471v9y4TwR5WF20izTNjBtRAm1SRv1cSxwpGg=="
+    },
+    {
+      "title": "livekit.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS8uAMWOQ93xzEI9tzKoNNCTAVdK8fDo-4GFwy4VaTzZIxSc4QEUjTlUcmqNp2wuxASOX_w95aIvz__lbDjeeZrltQsX7gnApRT7-e1RNeZooYM6v_GufxAZxhw-kQSSc="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeN899jTh4HfNspydpzwnl9Y1D7HevkyLahYHgOOqRt3zLVWjMHou4jBwVWG4yEFQQMaQrNclcsqBdjswTuitOkFYO2PRvIyFP3StMM47vyz1aMlQeSlbJguFzagZRwqd7KjsR3MpX3Re75HckOp9fCUJ-YJ20ZXf2Rmf-tLR7xtV7kCtbkWE5YOpwT7C8D4OxxlcfrT0FHANU2Pn9LKojc2E6b0z8oNmmqB4L4DiEzPqkgnQT98o="
+    },
+    {
+      "title": "voiceaispace.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV4fFs99aZOzoAW_ZmnplGQrm6QTv4CuB2uY73GJuK35Bn5BleB8dkdrll4DdUCiaHyCxECKikEAHLjqSE6sooajnJZz8nn8kLKzp8I8AMva2k1QIYmF7FY486M7T5idPKfCHX"
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaMlL9zos_xg1lRsjR8B6apzTP0kBt_PtrVlqAqdA_huWPUbRNCm3Mf7eTfKPVamDfCb-eHP_zTq7QO2ePtDHjdmCPlDai-d2m89vELPzijEfCGKHYimzSUkp61hqTXGT4oMBkooUCBQ66x6SW7JFUH6_fAq5vqCTQJwq_GvdXafSzcnguq5OGJfwknRH5Ybo80kKBNjIQl596WExXMh_Ms3sX0iciyO2T9HdxrnFkz4qr4zkcVp1hVMP-VURzdsJMFZY="
+    },
+    {
+      "title": "openvidu.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEux4RELuxd-yVYz979qTKuGpw2ji71hnVa4S0ET8gPuNqXdgluwqCx4iX8I4bkBpTjVGzMiQmt8ZeU0htpV2Isi9VqIIc3iVyhoTypYd62eAWKA35bmAqjYwqb7J7uWiTW"
+    },
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFirfJ975g_YN-9YaRidzSTx6HANMKrJqja77eJCC-XsDfwASNRwaulqBGS65vunMz8kRez285rWh2vcv_lp6RvSA_5up05qLA8eZRdGFyxlMZV5nmiO-_kI3hmDTU="
+    },
+    {
+      "title": "getstream.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6KUKl8fzrVe__gmKC6DC_cwgV7OD2-0QBoy1gJWeSr9j2uyzfsQt6yki6Bg8-RjwoOo83zhfX_eBAppod-BJuzON0LI8GePiutIiAK7bAA4pRd0OS6sh1MZL4lFe_Uj5Q"
+    },
+    {
+      "title": "aitechhub.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNLMzDq15xZnaQMs9xFXUeubSn_Sx21Rsg7WEEXmvhK_f2U8oYB4VQaop2LOufpl_mMwCWfN-9FAwy4ddNSgFRGH_vjHPlnXO-O5uiEPQttxJneD964sZJqvINcCGU"
+    },
+    {
+      "title": "livekit.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp_P41sVvLUsCzVptiH-FvW6EKwxPfUyudoMOuOboeZ8nC4wf64SfOlcNWPE6OZmSUkpON-LCJp19I1LpXBrUr2XPedyboiOzfHme9W2pUgmyCVKCjCbMGYdKxGgw="
+    },
+    {
+      "title": "voipnuggets.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB0UajDxNGC9L6UE0OlrxoUzSa8X6Dd6-BGedk2qBlk3Ya_P8SFLxNSmlwEf6YdHmKVGJAvkTssubYhSa7PaEtoxs272uBzT5WU-S6rOHUN5vxajLvgQ9lSAkPILDcp9xy-vGXIg0IotUo6AmvlQbERlztd14qRCF8ssNrqYo4zYD09PJFzzcuzgGqf_x8iZ_87GN6fLC6Vhbx"
+    },
+    {
+      "title": "forasoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8j1z2W9NTh7iIkxF9-1xJpovGN_4NafF3cFE2E94UqCKhm7j18eS00mGF01oUQmRHIXlLyrMGq157ipKHHzGp3D2JB0RrL4ahkceS7kxG5_SIWePAq53iAzT7Tn8-EIJDY_UYPwWGAeZv45nMQVwa6pDqVos="
+    }
+  ],
+  "id": "NET-008"
+}

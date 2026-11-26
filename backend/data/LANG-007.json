@@ -1,0 +1,98 @@
+{
+  "name": {
+    "zh": "Elixir",
+    "en": "Elixir"
+  },
+  "domain_category": {
+    "id": 1,
+    "name": "程式語言",
+    "description": "用來描述計算與建構軟體的語言"
+  },
+  "stage": "growing",
+  "development_stage": {
+    "value": "growing",
+    "label": "成長階段"
+  },
+  "description": "Elixir 是一種動態、函數式程式語言，運行於 Erlang 虛擬機 (BEAM) 之上。它旨在利用 Erlang 的強大功能，同時提供更現代、更具表達力的語法和工具。Elixir 專為建構可擴展、容錯且易於維護的應用程式而設計。",
+  "purpose": "Elixir 解決了建構大規模、高併發、分散式和容錯系統的挑戰。它廣泛應用於網頁開發（特別是即時功能）、嵌入式系統、機器學習、資料處理、物聯網 (IoT) 和電信等領域。",
+  "paradigm": "多典範：函數式、併發式、分散式、程序導向。它強調純函數、不可變資料、高階函數和模式匹配。它透過輕量級程序（Actor Model）實現併發。",
+  "key_points": [
+    "一種動態、函數式程式語言，運行於 Erlang 虛擬機 (BEAM) 之上。",
+    "專為建構可擴展、容錯、分散式和高併發應用程式而設計。",
+    "利用 Erlang 虛擬機的強大生態系統和功能，例如輕量級程序和訊息傳遞機制以實現併發。",
+    "提供現代、富有表達力的語法和工具（例如用於專案管理的 Mix、用於套件管理的 Hex），以提高開發人員生產力。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "08",
+      "name": "計算運行型",
+      "label": "computation&execution",
+      "description": "執行指令與運算程序，或提供程式運行環境。"
+    },
+    "secondary": [
+      {
+        "id": "14",
+        "name": "開發建構型",
+        "label": "development&building",
+        "description": "協助軟體開發、版本與依賴管理、編譯、打包及交付。"
+      }
+    ]
+  },
+  "created_at": "2011-01-01",
+  "relations": [],
+  "sources": [
+    {
+      "title": "dev.to",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1PTXQRgGe_786R-UBqOhZYW3TYKGTuA38uzvh1CUMqYWP2_hUNDQ2ZREvkC43Gz9C4lj507ajDHgcaR1eMiXWCPqBI8Ty3y7y-KXu2v_3lcPrXDjO80noUWZYcX3hkPH0ob-RUXhi7B1U_o3-Jrj4p8kCRv521jrt2C_NRDxizB8EPw=="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcn59qzaoksnsAfw8pz6ygWFprnN0NRRAk9uSeTZr5bEA12bUwvhauRuwaod3Pm3-4pS9WeimM4t0MPZiIbuNVPpcyxhPPt3fkMPmANbGwDLfXK3jl0Cu10oJzoZqlfCgMJE_kP0NQM10fZ1TfzBEBH-ET7pmF"
+    },
+    {
+      "title": "freecodecamp.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjhLr5DjITaYuLpwY91ytMdcbtLGDXZtc1fO0soS0_10cTWYv_cBeIasMXlaLrKzPbRXqRm7Db_LeUcVFIBzlep3OrIMpUJpH3-uxWV6HK7Y1nJRDC3jc4XF5XnFP6pXQET5Y4DCkGhu9Zo0acz0cFX-I1NTTg3HxPiS28edAvSg=="
+    },
+    {
+      "title": "elixir-lang.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXW5Jx7Y0LeDGEu-NI4dp1VMISHOBioM9tSNniZGTt1S66qUw19JZzJGTHUEweVB4U2L795Fuje8B1RWhQlFq9r9OGpp1kUv4fNsFc6OKJs3XSEA=="
+    },
+    {
+      "title": "erlang-solutions.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6TN4tNabdEHXq5xYZCqQHlMZFeqblYXnHF59c82VmuELbGHHJSsfhLUFajgOSe03SFa4v5YLT3nBE00xggftq0UeiK0RyWvkpgffwH7XwLdKKgqU2Y3ParB4WoHF4b3KKpECPBZDcSj4E3XaaHsYR"
+    },
+    {
+      "title": "devinterface.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHR72rJHzBPB9F4xH5D5Rb2t4nypXaKUUpOaG659LjEtmKvVFPdEIIkhAmiDb2s_tURtkPUmbWUeqCguf85PuxbMXQI28sWsvtPPtNOjCN4fClWwYghR_EwGnxci-ClAStOwfO6LJO6J_vv7zVUs22fTG5nf28gd9ND5sycIw=="
+    },
+    {
+      "title": "erlang-solutions.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu2CgsWbL-SBLMcryV64Y1SJ4FJ_BBVIRTzzn6HQ7MJJYiSvQSeGxVoNNDZLh3mn96eCdC6axYhqMIxPY0lfx4fUwfIVmmRUtvoNCfYfexYqU7SYt7mQ0KCnfvfqznGk8LyD8pdnGzg2O26a_lWmuiauw="
+    },
+    {
+      "title": "toptal.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT9eSw885sdlT3BzsuqZAW8cAPLGIUAARBYqAnCvwlMMr5MvWHVwUtX_8SMkWque0ozX-Bo0gA2YQTjn-ZbO4YtrTjk-DTWWpazYEhuhvisC3sKaql2yTHasHJR2zKCHDEnB_9QZKTcUUZzIORU3vPWyHYtOLeVAZi6xyULuR1vhjGBNiV1Upv7Yu7sTBm2Q=="
+    },
+    {
+      "title": "leaddev.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr-mKYRIQvrdMAsfIHZQWgJzYS3KwWfpxPNfuq3dxcDlNbsAllwNrSOhFLpiupU5BG1yXxgDJDbrwfGYSf4yXHffRBOPIyYYMhjHDljbXKLlZPRU5oZyxnTr8SU-zwgAaOgjaU9zUxXfYIvOA_x9HfcLbQTBTjyHr4xQsL-kOPWmO8SVWoOlnKYyPREhwSFbOteIYYGA=="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnP1_nks9C9zrQEedgZiXoN_KzLhErJIzXwbOYVgVJbbSh87sj4uaw083kENlrZ0p6eEBKrtYHO3LJmM6dTmjiKglMoTHrSMWMYaZIDrvK-Pq6F6ki8V2TAD0diSxtopRtt8L3OfA="
+    },
+    {
+      "title": "monterail.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm0H-MXN8uy1Hag-FAY_xn-k4mj0-CxAduGQ9bFD-JNj6hUSF4Jev9lkGAsHxQm6S93hJ5YLV-EVrO9SQaLeq-eHvrsIT7OeU6hH_sQXGCFbQNDfs--gzawKWhbamsoNFx1rMJXGKtuwYXguxqLYna5JioyhysIQ=="
+    },
+    {
+      "title": "freshcodeit.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7Ew-1SaLej2277LdFtwZ5SoaMPmkExOmxbEjJw2NR05SF2FakJ-C50XXBzBbkzqKr_Ox16FoZcaGNuZvjooCqpcG8iHMf_P8U4Kc6RQ1dS1vaczyWPpjY9mox_8HOtarIGQeah0KK3yf3W3CrnEjgeXiqm3yhczth0qmWi5AyhhxvN1LcVw=="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERmVPqXxXSk-xcnkrrAdFsoRc9ybhp5uSz8npEtpObiSvTDpKNBQzaC825gvRiRYHZYQvIKoOfhjSG3R1KpgvwkYX73Fda3PP54R2dYOl7zRZwIVbgEVv1O9gA5F_EWXanFoOfa8Rmk0DSZCLCxDI-ZBWZyZo21yytJ_V2vTROhNHrM1qDlfokJLQ1cNQPVDQ="
+    }
+  ],
+  "id": "LANG-007"
+}

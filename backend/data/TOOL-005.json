@@ -1,0 +1,158 @@
+{
+  "name": {
+    "zh": "Vite",
+    "en": "Vite"
+  },
+  "domain_category": {
+    "id": 7,
+    "name": "雲端與 DevOps",
+    "description": "建置、部署與營運現代服務"
+  },
+  "stage": "growing",
+  "development_stage": {
+    "value": "growing",
+    "label": "成長階段"
+  },
+  "description": "Vite（法語發音 /vit/，意為「快速」）是一個現代前端建構工具與本地開發伺服器，旨在為現代網頁專案提供更快、更精簡的開發體驗。它利用瀏覽器原生 ES 模組在開發階段實現即時伺服器啟動與快速熱模組替換（HMR），並在生產環境中透過 Rollup 或 Rolldown 進行優化建置，以輸出高效能的靜態資源。",
+  "purpose": "Vite 的主要目的是簡化前端開發的打包流程，減少開發瓶頸，提供快速的開發伺服器和優化的生產建置，讓開發者能夠迅速預覽變更並高效部署網頁應用程式。",
+  "paradigm": "Vite 的核心設計典範包括：基於原生 ES 模組的開發伺服器，在開發階段按需提供原始碼，避免預先打包；透過熱模組替換（HMR）實現即時、精確的頁面更新，同時保留應用程式狀態；利用 esbuild 或 Rolldown 對不常變動的依賴項進行預打包，以加速伺服器啟動並將 CommonJS/UMD 模組轉換為 ES 模組；以及使用 Rollup 或 Rolldown 進行生產建置，以產生包含搖樹優化、程式碼分割和最小化的靜態資源。",
+  "key_points": [
+    "即時伺服器啟動與閃電般快速的熱模組替換 (HMR)，顯著提升開發體驗與回饋循環速度。",
+    "利用瀏覽器原生 ES 模組，在開發階段按需提供原始碼，無需預先打包整個應用程式。",
+    "透過 esbuild 或 Rolldown 進行依賴預打包，並使用 Rollup 或 Rolldown 產生高度優化的生產建置，支援搖樹優化與程式碼分割。",
+    "提供開箱即用的 TypeScript、JSX、CSS 預處理器支援，並具備基於 Rollup 插件介面的可擴展插件系統。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "14",
+      "name": "開發建構型",
+      "label": "development&building",
+      "description": "協助軟體開發、版本與依賴管理、編譯、打包及交付。"
+    },
+    "secondary": [
+      {
+        "id": "08",
+        "name": "計算運行型",
+        "label": "computation&execution",
+        "description": "執行指令與運算程序，或提供程式運行環境。"
+      }
+    ]
+  },
+  "created_at": "2020-04-01",
+  "relations": [
+    {
+      "target_id": "LANG-003",
+      "target_name": "TypeScript",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "LANG-004",
+      "target_name": "JavaScript",
+      "relation_type": "related_language"
+    },
+    {
+      "target_id": "NET-004",
+      "target_name": "WebSocket",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "stackblitz.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1ey37FHuFnPBbX_1M0KDuweranEJ0YTxHbjitiWpoLNYWHq9_i7nQ3TxS3OwIa7QcmJedsKX5THptu3xzNA5KkIZSm9cRCK9EanTIx6jZ0Rdwql3bDlI4HeXv_jb9J9bD0SAuO1e8Mk1eXbETsneW3g3JWm4NnA=="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkhIGyiilfsqVXQNUONA2sDDKsQgqRBYh_ZPO2mEx1i3kPp21MHImOyADhOfKNk7YVYqZPT5oLz1Xja3wm2VktiP4Uncqs5M1dVJW8LvV97HL5J9yNon52M5Qfilc="
+    },
+    {
+      "title": "vite.dev",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAcYjqBiye2IvdYoXvvliowx--9c6_3xUtc0sxaB04jJeEvjFFUPigHeRhsywmBopEeqPV7-pS6U3r3C3M8puSYSRI5E4oDRGyKpRI"
+    },
+    {
+      "title": "vitejs.dev",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW9QxOOJPRlAuDM4lS2cLjgZOEgevfrracUw5epF9JZPpRYJp6oZsxnQmE3HzXB_a2u5Nt6130mvLQr1QbFO-Sn847yz3fMtnkFpHPHd5eBc7aULZPz7s="
+    },
+    {
+      "title": "emergent.sh",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-0WyH5EZmuWRJL0OiZquRRE-OPP1WEppBs9xrAyRo5TnweZTdP2fH6irNfu3mzEzQZqcNLWbiMkriA6vmAdECNuR3OHVKfzvb04SqkZl-2bo7SEQRji4s5-AmFA=="
+    },
+    {
+      "title": "opensource.fyi",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCeDahYjrFoSsWilXzkk9SfKoS81y4OA_zlm4xitG0AYrCm-C87A0GtvtLI4IrVhAqtTHm-IwttejILD3JyHXuHCAqXk2aFm6HaDSVO7Csh_ghBPVrxZhF7FbxPesBZAk="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWjJ08Y47bwU1aGMcQ7H-BqVdzb5lCdSS5IsQr5u3hIDPwtnbW6kbM85IPItWwBwDtNmByn0bZxUdjuTuLPCISius-_Rhq45zj_93UDpQB6jJGW36Y_fCmWJqG_hJWWF5Uook3P8wiTAr0MhrEQ764UnN4lv0qjKGjcHRq-LYWgmf2_FQYUBDH4g=="
+    },
+    {
+      "title": "dev.to",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH93iJQPLFgZel7vjts737TKZdZphTqYQwnJb8TJ7IDMGNRWnuIlONAxBix9pAhBVGuc-olLOhcXNEythsBHNN9JdIkaPBzdhm4Icudrl07ZcYNoSdtNRBOvPeIQ_tWIJnJ7ZtLiJrWXinxMmR4OLl5qG_0jjLD-x_Zhml6ZPjrQr5l"
+    },
+    {
+      "title": "semaphore.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr9xw7UD4Xs1RxOqJnO6cWd3UTYWlIV644KuAAgRGOvi0rzrFMv8EfJEvhM761NpTWz6lBB0KPSTKuluL3ft_2-XktVIX4NpsC1pqzVifW8373AKflhnSYRg=="
+    },
+    {
+      "title": "vercel.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBz_f4x-4oDuSrkplhDsgMjlUtwmxYtor2_FTEWMozv1psrdEldIdyfU62u0Uq2xWGs4UKp97wdDpdVqvyIkxxXtD4WS-vcAkEXP1Mm1XIiesOwoViS8jS-RiJ99D2"
+    },
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq0BrDHN3xQA6sKLalVhwAmLuDriyknFkf550ZrKpe2ror0Dm7T8dMvvOLWxD3RLYF0x1pRuPqpGof7dDzWTtEla43OY9ABEA1vhwZxjquitsiFtR9rb33Fg=="
+    },
+    {
+      "title": "vite.dev",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECxlKaowrtLV6Qiu2gtLAAFSvZUKUGoM88CYcA_29cbhDI2taWhuwhyuulTULIJ0Ax5SRtYVXprDBPVChWRKcpo1f0ymsKvo2usQbQUfrfCCAG"
+    },
+    {
+      "title": "vite.dev",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE12SSZps1Wk9xBYvPg6Z85akSoPjr4PHh8rvBPOY1m28ICoiLK0z1d7M3PK0LXqrBr862vayIqW9ATJCwMnbRZjFmutZxy7TkR7J29urdJ9ZP8IXYz"
+    },
+    {
+      "title": "gpmd.co.uk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTiK32g_KtgGxR4uCB3GK52eMQ5Wr8tEvLlbesGFXhbBJ8FMhv4GZ2QBKn6PjmSm3tkqvoZ6cgGwXLLsLPPeH566nnfPmWqjuKBhxeLDYijrcg-H_uKvpIVONyiUKfam59DhCFEzR3TV5fX6rWoFQNaZy5XRLbL6B-gg=="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN3BChHiV_lMO1NHVvsIXmoVgvg-o4CR7irVeJxJw9r6P8WXgfhu8ruE3bxR1VQIkN_kwVFz974ANnuBEYcpgA8od5HtaVB3bNxMgdsF38aGiX3xvBikLiqemaRYF2LHVG8CMRoAOB9uYVtAPK_rNVxO43CqfGUOdzylf8TZqe3vLMNiOkoPUiHDeJfujyPXHQ_jJYYCDI9jLg7Ax9Ryz4nqa_c8ZEn506uqV9y9aAwgHiSpt1vw=="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyvh3Ih0GK8R5rtLnKfrNMPSrVQqSe1F83wZk8DCgDER4VH3B_a1yvq1o7WEQK7V6pibG7XPAr6ZjdQFgPWL_YpcnEYKI9YgaGvikexdsCReUQEabywS_5_tnsiOBafrv5CFBPDnUco0oD8hSux0Z0CeQsGcW8EiUd3Wx4C8ngbSqCUeJM6wK_11vxGoPVj_ussxyL_w=="
+    },
+    {
+      "title": "polprog.pl",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0yVp3SYxlZrmiCq1NaM9Vk9v0qM6UfKhLsxoxfP5ET_HpAqCWDSoBHKNu0xIG8491zMa3JqdfEp50yG34ZAZtPeawv85UkVZHCs6AQJpq7hz_8rnFf1-sSc_4S_n7KdAk9cwjxmaa3gg="
+    },
+    {
+      "title": "kinsta.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgsFHE0gSAFwG3ZbHOUBJIx88X5KGuZsEI2gk7V6CGN3bz4av2UFaIebVY7OfispJ29lK9yJXxVaiDUeLrwjTooOUzSFskI9cdjYBz7eEuOfmDpVpTomqdA59Sr9VwgHpiYFs="
+    },
+    {
+      "title": "vite.dev",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqNoS-o8FB8YRC_FCD1FVrPTO5pdgGpoYHF_LcNDJuwShdFzy4uI2KegocOnamy-gHxb47mjhYrpENAKCoCOdIDE3u1eKCErqAC0pwBYfr4cLv0XOFJKgkUYE="
+    },
+    {
+      "title": "jsmanifest.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxZy1yPKTwFdA73OxWr3U0fQbHDxEYAWiJiloyL-f3CxMBI3jvg5aQlwXvO2p1UpGaavKi_OoXca2wiPlUJBEtKbYlxCPRRsX9svnSDw3pNQmWjRav3f8bbPsmoHjweVSHVf0oq1M="
+    },
+    {
+      "title": "gitconnected.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM7nTZUk8x1o1UcS8eYrjdlUi_KUEwYjHD0LIugQFbqwmRNyiJJaukDdyt3iiv26MJWfb-FB0yUXCEjQDOrwSPwGiftE6MDbTdXGByeQ3w2wbohPQvuqIP6_UHiY5uXEVwxf9VXsx6UiRjvx3u550bfRTqtymrloQLhI4JKcfS9w5wEVgBljjJT5bAcpZAui7yNOhpy1PKzoLT-6N43g=="
+    },
+    {
+      "title": "fragments-studio.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm4cmJk4Adg5s8Va2yHgwO-4fuMxXsKXHaXSB6maJmUNLuVMN1ASMq9UGE-re9Blg2KcpwwLYn9mDmilW-w_S3vOC63RFvkGawYCNfYhIyB4IheWJqnB_rLGCvMvt3yU5xyWSBlxyFMyk="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMocGUirOHICvKa7JslmmR_r4QDN3wYzK_E5W3v0k41XC-R25oORHp8gJHOQbsMhye0vzQFXuXJTBgTo8fS4wCJ_i36JXzLinwBZYCgUpc3LlQo1KvuzHhe70bCTAA_Jnn5h0MbRk="
+    },
+    {
+      "title": "ricmac.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyETaFsnknFRTL5SsvVRpPoj1SH5NmMIbCnFL_fpU5guo4KhI8gBYR_DIG4z2YTK_AKxxtJyFJtaph0NROJAMcPiqj7OmEpISljWvWDxWM5YJZSGS_bVFH_S-gFYx-GHzgvjcX-JVXwIPmDWWyVQaTs77pjxo1MEYpgH-jHs1Y6LrNDrUjwtbm3Yyd62QOw0g7E9Uh"
+    }
+  ],
+  "id": "TOOL-005"
+}

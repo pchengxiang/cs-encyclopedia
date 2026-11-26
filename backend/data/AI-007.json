@@ -1,0 +1,145 @@
+{
+  "name": {
+    "zh": "人工智慧代理框架",
+    "en": "AI Agent Framework"
+  },
+  "domain_category": {
+    "id": 2,
+    "name": "人工智慧",
+    "description": "讓機器展現智慧行為的技術"
+  },
+  "stage": "emerging",
+  "development_stage": {
+    "value": "emerging",
+    "label": "新興階段"
+  },
+  "description": "人工智慧代理框架是一種平台或工具集，旨在簡化人工智慧代理的建構、管理與部署。它提供預先建置的元件與功能，讓開發者能更輕鬆地打造具備自主規劃、工具使用、記憶維護及適應能力的人工智慧系統，以達成特定目標。雖然市面上有許多具體的框架產品，但「人工智慧代理框架」本身是一個泛稱，其用法與實作方式尚未完全標準化為單一整合產品。",
+  "purpose": "人工智慧代理框架主要用於簡化人工智慧代理的開發，縮短開發時間與成本，提升可擴展性與效率，並確保結果的準確性與一致性。它協助整合單一AI模型與多代理系統，管理AI驅動的工作流程，並以一致性與可監督性自動化業務流程。",
+  "paradigm": "人工智慧代理框架的運作典範通常涉及一個持續的「感知、規劃、行動、反思」或「推理-行動-觀察」循環。它支援目標導向的執行、多步驟規劃、基於情境的工具選擇、持久化記憶或狀態管理，以及自我修正迴路。",
+  "key_points": [
+    "提供預建元件與抽象化，簡化人工智慧代理的開發流程，加速應用程式建構。",
+    "包含規劃、記憶、工具使用、執行、通訊與治理等核心功能模組，支援代理的自主運作。",
+    "使人工智慧系統能感知環境、自主決策並執行多步驟任務，以達成複雜目標。",
+    "提供機制以支援多代理協作、企業級應用部署、可擴展性與與現有系統的整合。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "16",
+      "name": "編排協調型",
+      "label": "orchestration&coordination",
+      "description": "組織及協調多個服務、程序或元件按流程共同運作。"
+    },
+    "secondary": [
+      {
+        "id": "08",
+        "name": "計算運行型",
+        "label": "computation&execution",
+        "description": "執行指令與運算程序，或提供程式運行環境。"
+      },
+      {
+        "id": "14",
+        "name": "開發建構型",
+        "label": "development&building",
+        "description": "協助軟體開發、版本與依賴管理、編譯、打包及交付。"
+      }
+    ]
+  },
+  "created_at": "",
+  "relations": [
+    {
+      "target_id": "AI-001",
+      "target_name": "大型語言模型",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-003",
+      "target_name": "RAG 檢索增強生成",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-005",
+      "target_name": "生成式 AI",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "DB-005",
+      "target_name": "向量資料庫",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "kimi.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjj_9s7Lwogoic9RikYg69Yk5kJx8vYn-1icQgtA6imDr-QS_J-LovhiFKCAXfe2hAf9cvsctpSX7awVrqtUGNeK_RFl5_XJNzLd6_tvC8b8fpjNQONbiJ6Uy19z3Z6F1IbEHlTAxRNiwHc-s7_Jiy-7KW7LxSstDi"
+    },
+    {
+      "title": "jadasquad.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG80_MINX7aHoEDTLy1m60qw-EzbdfSq54jlAGa9j4ii-QSKX7dg0LOpNYqn5wyaLYJoHux_IudUpGj7gZ5LwU-J1SyNMh9REl9nrlKxQqUfOxErT5QIESYAzwAYl43xzVe_tWK8F5FsnHJ4E26nmDOI-IyKyln"
+    },
+    {
+      "title": "resocia.jp",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYVrrCtkwmFF8p2kG_rUilLLPd-hO5UKB-1Heid1NOBpIqU7g6WUFi0vhYvfh4IlQl4_4m5qbkYxp7UntHFvoy3iMy8r3aVohXYZeHUMYFTMQZgpTfMwEKAc3PkyVJBGKXFH4="
+    },
+    {
+      "title": "salesforce.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEREtvjFbHyDLtra2pHMIdjlz9b5LcUpLfhuVtfsE6EBVrXp6GTnAWG-jv0qBmsSSKY7sUnbG7BX6rULEQSl-VHePhMSeSc-IC_Z1_8szQGB51u0utQ9_3qeCUySqLGW1zYMJwwwMQy3A19SAy2nofSrOCGKJQ0_eyryXUitojRJPM8"
+    },
+    {
+      "title": "salesforce.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaLuyCqdRK80YZbLSlQlHvugKZ0Sf4i9GKRIka6ymTmEulLCg2f-83X0jLDQGOCb90jTfLgta1flqr0x96EcHRx744Xt59PXhPdqFGKioXmIBIPyO4ya36MFx6sP6GxgzWDItDum6u1tAEiAUTdEwtFq6K6EDkBgWPxKvrOgG-"
+    },
+    {
+      "title": "mastra.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb9yX7nfj0khv_RGTFgaPIXwMIIRWdPh3mKiIFpTC7T_Atjzw3NIbVzg58dHstqMBEHelT9ivMr5F2iUMjg-Q-9sK5OSSBEOCBKQ9kbxzXq23x65sYMfrMcVERSkg6bYAuyT7To1wC1A=="
+    },
+    {
+      "title": "brainpad.co.jp",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcO9APzjyTFm2nQhI45k65G3vLBMiztd_1uLGfCote2h4T0rvPTKQIKSKIPCxmkGavSySVmIyfDci-EdYRRC-EY0L80eJuvVbDmb2BLTAJQ0OUAO3vKSdi9CYkfkeuUmdOm3HsVTjAW0wnokrW3dd_HqbFSZJeGtMsIDeIdBi34Ye-PLV9zZBFMA=="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH15Jb4tzMG3pQ8hYVnKCGpGrquGeIaN9f81PssHoS-CmxryCIR4MyISLeEvlayWCn7gyRbbRurYAqpNKuqiqHQY8OJYta6YT2bDmSsaxoXu0Q_YQuIhc_dinbTe0fBI-BrQt1QQ1mX96aBrTwYAyfo0Puy4vDA046qdsBZwkl9WgGUdGnrK6TF3ldjAMlWQT8="
+    },
+    {
+      "title": "microsoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNjSLAAYF7I1iIcB0dgREk_knZSdTGgZfzJqeAxBKdYnQbKnD5AlDgSxHwXzAAsJQTSkqxJ4HZgzZou1oGCsZcKkMMePUl9vHVa0ev7ZFue2hZdxvmpq-B75qNN0QPvhqYLNRM-TmF5inhF67iM3XbZZH051vFo6BBsujiGGmo40souA=="
+    },
+    {
+      "title": "thinkingai.cn",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo5upChwTNYb9vW3cxwukPCb4E5-dk1FWBReK3HvJCDlU9i4sYytaNHMW-IFQpBoBwvCUj_ofiMPLXCaGjcSETf0u_VBP_q8zK8dgpDLb5_PsVnNKjJGSQ5zXize7RUKFA3Cw50PC3ttx0IEYbuwxon-jWNtI="
+    },
+    {
+      "title": "microsoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbYScLaUJ8YtWJAPazktlZmo5EmWCNPTsX8bE6PejFg7Sd_Bmk1IlCf1ACWC021xAlTLFdMSGCXXD-9Nb5FsPTsWm3AivCDtqSLUwbxUUK_wlkdSuvztlSajeyMuk-7iGOXVD6DEucybsqwFbQvmOSNnoUqkqL2cIWqPQNyB6hQg=="
+    },
+    {
+      "title": "microsoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQMSSwy9C03dHyl0ZS3dQLIQ3R1YvOGHOqaTS5hlWRbohqMLCrvAdJ5wVthKjGOVIJg3l5PRUUIGKK-CidFE0kY5zPoQfEGkhUAxdW6U5a_XegB5tLTksM9xmCr5wLsg4mvYs-TEHX2tsmVzFLIWg80z-EFdujcjMZiwz5VhxLIi11rA=="
+    },
+    {
+      "title": "taskade.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiZtf5cwiTHA3Y-Y0NFqkxLz91snvmoXMjU2n-C4T4ax_jT3wqNh-RKqKMeX6AT5sqHzZBMv-tb8ejlA-wy1sDUsM2q36kfEldtn9aRIaFpKmPN82k_Kwz8PhfG1pNRbrHPfkNyMkcZpo="
+    },
+    {
+      "title": "ibm.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3tGF2dwT9it3NAONDBDTAp2OG5GMo75kbpj7LvgNv5UkXtA_rLmWukfyyS2byYgcpHRB8KC5vpKtjvcUMPVy4j9M5RhmluKUTqKZcpNqBqczusnyw3_KiZcbhgFOP1AjHrWug2w=="
+    },
+    {
+      "title": "binance.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO13YgzGzoD6JcOf1lyn-2E5pEZtsJfsRBpKipzumlO5PwL2u49j0ZBnjeY78WYFjMLV6zpVZSd2WDDegEKCnBf9tzriDRRvj0uXE_e-lNVVzG6bCC98iNMtyT9xkoTfZk7sMu43kI7jmUAaoqKGZWzJ6H_Q=="
+    },
+    {
+      "title": "quanxiaoha.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx61LTKlEtwgiBVuK_1s403R7inJXyKhlxyX6fTFxBAnm0m2NtrRqkjp1nMj7WG5rUV6xIPF5s6ATJSFowpo4JVKXqIPm3MQ5aYFUFAWuhK9lxO_PZWCLLnHFLpsG1SE8x5iIpKsBO7tj9fRY8Q6NskNz9qvG681WqpVzo3sWARfdENkdsokc="
+    },
+    {
+      "title": "91app.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAsZkgubml5FF_Q5W8tpzLPsWu2W9n97awqQc4GBC_-6PGd1WiidwnMUy4UWqPGmUTA5K73LnJXnjKa4jXpdq_HnJwBHVlaWfU466IA93zWrjLY0Wy_qrM49dgKq8k7zu0WA=="
+    },
+    {
+      "title": "feishu.cn",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaLxKUaRtmD5p0XiD0AoDDCrcnNXyaM_KA_e-dkaNpgAk7mNDIEETkv4jJtHNbkHx1cCt2qnci_I7Cf3iKremE4tSsNohg-oEPzwhYycxlypErM_qvnGlZsPBmbRw4VWN0-IYOV8P0jr6jZEqCATzFHIXJdlDX7w=="
+    }
+  ],
+  "id": "AI-007"
+}

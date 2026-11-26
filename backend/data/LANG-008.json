@@ -1,0 +1,102 @@
+{
+  "name": {
+    "zh": "C++ 的 Boost 庫",
+    "en": "Boost C++ Libraries"
+  },
+  "domain_category": {
+    "id": 1,
+    "name": "程式語言",
+    "description": "用來描述計算與建構軟體的語言"
+  },
+  "stage": "mature",
+  "development_stage": {
+    "value": "mature",
+    "label": "成熟階段"
+  },
+  "description": "Boost C++ 庫是一組經過同行評審的開源函式庫集合，旨在擴展 C++ 程式語言的功能。它提供對多種任務和結構的支援，例如線性代數、偽亂數生成、多執行緒、影像處理、正規表達式、單元測試、記憶體管理、檔案處理和網路通訊等。許多 Boost 函式庫是僅標頭檔的，並廣泛運用現代 C++ 技術、泛型程式設計和中繼程式設計。Boost 函式庫具有跨平台相容性，且其許多組件已被納入 C++ 標準函式庫中，例如智慧指標、執行緒、正規表達式和檔案系統 API 等。",
+  "purpose": "Boost 的主要目的是增強 C++ 的功能並提高開發人員的生產力。它提供高品質、可移植且可重複使用的 C++ 原始碼函式庫，為常見的程式設計挑戰提供進階解決方案和高效工具。此外，Boost 也作為新 C++ 技術和功能進行潛在標準化的試驗場。",
+  "paradigm": "泛型程式設計；中繼程式設計；多典範",
+  "key_points": [
+    "Boost 是一組經過同行評審的開源 C++ 函式庫，旨在補充和擴展 C++ 標準函式庫的功能。",
+    "它提供廣泛的功能，涵蓋從資料結構、演算法到作業系統抽象和網路通訊等多個領域。",
+    "許多 Boost 組件已對 C++ 標準產生重大影響，並被納入 C++11、C++17 等標準中。",
+    "Boost 函式庫強調可移植性、效率和現代 C++ 程式設計技術，並支援跨平台開發。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "14",
+      "name": "開發建構型",
+      "label": "development&building",
+      "description": "協助軟體開發、版本與依賴管理、編譯、打包及交付。"
+    },
+    "secondary": [
+      {
+        "id": "10",
+        "name": "資源管理型",
+        "label": "resource&management",
+        "description": "分配、調度、限制與回收系統運行所需的計算資源。"
+      },
+      {
+        "id": "08",
+        "name": "計算運行型",
+        "label": "computation&execution",
+        "description": "執行指令與運算程序，或提供程式運行環境。"
+      },
+      {
+        "id": "04",
+        "name": "轉變資料型",
+        "label": "tech&info",
+        "description": "轉換、分析、生成、編碼或解讀資料與資訊。"
+      },
+      {
+        "id": "06",
+        "name": "協定通訊型",
+        "label": "protocol&communication",
+        "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+      }
+    ]
+  },
+  "created_at": "1999-01-01",
+  "relations": [
+    {
+      "target_id": "LANG-006",
+      "target_name": "C++",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoVqz98n6_RgL_ByeebBDcGlPD7Wj3-o9WikN7wvWDltmS51VHJuLDzieedDb5X9sVqQJX2tRJDACx-p1Y2DBoAFWJVI7yPwnRh6d9Cy3L8HmwqNCL6ZlpiAPTrXaLNcYEvRSQBps458mNbIYCxWXLBg=="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbcBOCJ-7G9VEvTiTUiwN6FrH14yLCgNZt8g3ZmrKLpYerRgCEY9SKmpUx6EpVz5mZMQ5xqwENueBz42petL4tbq97QDT__ygJ23IsqAcurZ1Xg4aVb5_egH4dTCyeZJt8zbyKeqpXk2K_TnNXnYkC-SGkpDRlLG89Wf0I-g1I3LoRgdjjwt4ir-EGmJk8TA=="
+    },
+    {
+      "title": "boost.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH12mFa1iuTVUWW1ARDKOuLuP9F9PCc6yE8I87wlMACwpd2fai5SDbuR-PD7wUJLYRr0hmJyMYAkuXFDmFb5cLrxT1rXN0o4CoXuPhEcnfKTyHWV4ZR2daofEu0_SfNoS8CqQwOyTDCT-I="
+    },
+    {
+      "title": "incredibuild.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq0YHoaRzXBCqIJNOPuGeweibkJxe7S7DSXfAt2QeOiJN03j_Qs11oeZmtaw49PUNHHcuiIVMycit3XlMF31wCtxvCY6luyqihrL4fqOU09T7kw6zADOLXVbd6jq3qw4FmRa5t3cAI"
+    },
+    {
+      "title": "talent500.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHatjjGn1LqgPczX9BQvKEexS6xyUKR71UML4oHFWMoePQCqDswNpx-CmQe8egNOs4-8F-uBeT-GL2dNTPKB4LLX8rpgUjfPHaAA1ufUk-upNbSXCSkoZywH8KlWIytx73VUjo5q7a52V1ePA7g1rGAdDY5U26mm_zaxuZ1mhzvQUPxBw=="
+    },
+    {
+      "title": "simplifycpp.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLazg2q3aRV6Qt39KVQnU7sb7iBwrpOHUdVBwc6CDJ2_y5HToJ8HOtMrHniyGuVpspsisgRVU5u98cfscsQBlw7kaSmAR-3LUsKPyv_ml1hsKXIyMuXBjj75WLEidC_d80kNcBQ5cRe28y9v0cAAUhxuFk3K7-h99l7BOYcDsCIRCysH178y5fOE2LY2qaQ_J5MYfee3fr77liiJtDSFJjabVx6_rb04CqgZOstCdeeDOkpfKbk_GE4sV2dyLAVr3eq80="
+    },
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQUL2mdLMgsvhZ6IzX4UdTC0yKlBB3Aw2dxuLgaD97PPmH1dngWF4uPkNccwUf8eHVLChK3dd0-LLMQSgEW_aoSui85lCrwM686TPaWYUyngO-WJ-I9vILjgqC"
+    },
+    {
+      "title": "cppalliance.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG30xmCl5GINF-zV55JiNjVHPYh3GA8qD-iFwZjTr4a_REFNpwH8BYq0btPn9Rp9VECrFDDH8OH_Y8GxTiZH2bY62iTkgKeGvU8b3J54b8n5Y_VNI3vIrasIv_3P378BR01ZYQxZDI0NIASQEw="
+    }
+  ],
+  "id": "LANG-008"
+}

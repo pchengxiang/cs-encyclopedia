@@ -1,0 +1,85 @@
+{
+  "name": {
+    "zh": "資料池",
+    "en": "data pool"
+  },
+  "domain_category": {
+    "id": 4,
+    "name": "資料庫",
+    "description": "組織、儲存與查詢資料的系統"
+  },
+  "stage": "emerging",
+  "development_stage": {
+    "value": "emerging",
+    "label": "新興階段"
+  },
+  "description": "資料池是一種集中式儲存庫，旨在整合、儲存和管理來自多個來源的結構化、受良好治理的資料。它通常在儲存前對資料進行預處理和清理，以確保資料的一致性和準確性。相較於資料湖，資料池的規模較小、範圍更受控，且通常支援特定的業務功能或應用。此為編輯分類，不代表正式標準。",
+  "purpose": "資料池的主要目的是提供一個統一的平台，讓組織能夠有效率地存取、分析和共享資料，以支援營運報告、合規性、客戶資料管理和產品資訊管理等特定業務需求。它旨在提升資料品質、加快查詢效能，並促進跨部門協作。",
+  "paradigm": "集中式儲存庫；結構化與預處理資料；固定綱要（schema-on-write）；可作為資料倉儲或資料湖的補充。",
+  "key_points": [
+    "集中式儲存，整合來自多個來源的資料。",
+    "主要儲存結構化、已清理且受良好治理的資料。",
+    "專為特定業務應用和快速查詢效能而優化。",
+    "提升資料一致性，並促進資料在組織內部的有效共享。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "09",
+      "name": "資料儲存型",
+      "label": "data&storage",
+      "description": "保存、組織、索引、讀取及管理持久化資料。"
+    },
+    "secondary": [
+      {
+        "id": "04",
+        "name": "轉變資料型",
+        "label": "tech&info",
+        "description": "轉換、分析、生成、編碼或解讀資料與資訊。"
+      }
+    ]
+  },
+  "created_at": "",
+  "relations": [
+    {
+      "target_id": "DB-005",
+      "target_name": "向量資料庫",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-003",
+      "target_name": "RAG 檢索增強生成",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "pimberly.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDtkqMo9U6buZGflgwCkbYzIQLBGZrtyrkTIqzh2Gbn1t38wziU6rjs630AJ5XnLBr-gmsbAzH4n9tAVlYhNwzXkjPF57cU6F2d3PlCADjoFffZ_QBM2-0jIEgHz842LUOVd0="
+    },
+    {
+      "title": "stonefly.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJSx0bqyy_t8STo_7TT_KjFyuNkyC7NujMBMHgWfebgEkEmfphwa0Xf8T9tiW5lfKDWeMgLoGDMtBzMHxNW8Dhi1PwL-y2725z7rK7Fmbkq9FNuACv4jswKZWFoXHjzlaLi88e2tWKskkjWpBut9BXO0l-Q6gdjIt5WmE="
+    },
+    {
+      "title": "vercel.app",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo__n6lgkoIvc1jZxv7Z4DWNDr6HMd9-sdOGPhoIX7NQhQVZOX0IlVH0fBO3yzHi-6YeVzjQgLCsQTJlhnfYK9Dzi8wSh3EAXDEDJa0iwkTdziZhxVXu95CNSAS_g2J_x3XGM7qRhUUQ8zUJlSKYt2VrY="
+    },
+    {
+      "title": "liliendahl.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGixxAn6zeJ5IdZnsZiO2IXwbVc8lArWinkipJNfOjm-ckTsIX07omECAJ_-qxJeDu5rFNUMv-1NFdU6_ZitgImkNOoa6d5p2XGEdfNTxUMTf7gyBM2X8Lnc9euDnbJQzm5YCVIiGCUruBif9snXBV11G4acA=="
+    },
+    {
+      "title": "yellowground.eu",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb7qKuO9sKknQIKZjpq6ja05yTMAQRZkEHQM_6JFbsaCh3E8UMQW-GXTkOq-mg3xtBVQF-sm1nUGjTXSbsi4zR2Nrcy7kYjwmKshr2_1jRUzMNQJ0E1J3y_aXDS0m5xtqt_AmbKnqz6MVHLgp_9MIPrf9MDv36RUx_3DENr1NhGMfnBA=="
+    },
+    {
+      "title": "microsoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaWbER3CaDDgyD6Khp01wGDlJV1yxnJoLNDwEWn6o_fW8kh-rysiYg_kXb33UHC9dnMj3EYVVBIlKquLEht6vPLCtMwoPK0mS-iOBlPW110ukI7X_44Ch_-15XFoMZJTO1NMaaNjXWnMWRuMuLujRkJadZxmysRyrlGr7k2ctcuVB9sJBfSuKxJcwpyj01rJaK-9gFPlDo7sN-s8vDlRGWChLOlcOh14wHlEEo-gQQbjKCc_K_eQ=="
+    },
+    {
+      "title": "microsoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvNROGEAp9GEOWiImLOpS58rTmJEBgyGmzJdZZx2OY_3LXSNH_lq2_7yjKJhGi2RV2UUtEmCc4VWDzFST-Q14XfxN06ieZw7Lj_EVxXOsmdOpPs1JmHyCZYx_RILup4Yfd97DHUlNoqTFSnVRExV4OkM39t-LZwsa8FDEcillUcmWZOehrWuXs0IVLElfQ"
+    }
+  ],
+  "id": "DB-006"
+}

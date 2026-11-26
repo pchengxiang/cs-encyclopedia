@@ -1,0 +1,150 @@
+{
+  "name": {
+    "zh": "Firebase",
+    "en": "Firebase"
+  },
+  "domain_category": {
+    "id": 7,
+    "name": "雲端與 DevOps",
+    "description": "建置、部署與營運現代服務"
+  },
+  "stage": "mature",
+  "development_stage": {
+    "value": "mature",
+    "label": "成熟階段"
+  },
+  "description": "Firebase 是 Google 提供的雲端平台，旨在簡化網路與行動應用程式的開發流程。它作為一種後端即服務 (Backend-as-a-Service, BaaS) 解決方案，提供一整套整合工具與服務，讓開發者無需管理底層伺服器基礎設施，即可建構、部署、管理與擴展應用程式。Firebase 整合了多項 Google 服務，支援跨平台開發，並提供即時資料同步、使用者身份驗證、雲端儲存、託管服務、雲端函式及應用程式分析等功能。",
+  "purpose": "Firebase 的主要目的是讓開發者能專注於應用程式的前端開發與使用者體驗，透過提供預先建置且易於整合的後端服務，加速應用程式的開發週期。它協助處理資料庫管理、使用者身份驗證、檔案儲存、伺服器端邏輯執行、應用程式託管與效能監控等常見的後端需求。",
+  "paradigm": "後端即服務 (BaaS)；雲端平台；即時資料同步；無伺服器運算；NoSQL 資料庫 (文件導向與鍵值儲存)。",
+  "key_points": [
+    "提供一整套後端即服務 (BaaS) 工具，簡化行動與網路應用程式的開發、管理與擴展。",
+    "包含即時資料庫 (Realtime Database 與 Cloud Firestore)、使用者身份驗證、雲端儲存、託管服務、雲端函式與分析等核心服務。",
+    "支援跨平台開發 (Android, iOS, Web, Unity)，並提供即時資料同步功能，適合建構協作與即時互動應用。",
+    "由 Google 提供支援，自動處理底層基礎設施的擴展與維護，讓開發者專注於前端與使用者體驗。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "14",
+      "name": "開發建構型",
+      "label": "development&building",
+      "description": "協助軟體開發、版本與依賴管理、編譯、打包及交付。"
+    },
+    "secondary": [
+      {
+        "id": "09",
+        "name": "資料儲存型",
+        "label": "data&storage",
+        "description": "保存、組織、索引、讀取及管理持久化資料。"
+      },
+      {
+        "id": "05",
+        "name": "系統接口型",
+        "label": "system&interface",
+        "description": "建立不同系統之間的識別、存取與功能介接。"
+      },
+      {
+        "id": "08",
+        "name": "計算運行型",
+        "label": "computation&execution",
+        "description": "執行指令與運算程序，或提供程式運行環境。"
+      },
+      {
+        "id": "07",
+        "name": "安全門鎖型",
+        "label": "security&access",
+        "description": "保護系統、資料與資源，並控制驗證、授權及存取權限。"
+      }
+    ]
+  },
+  "created_at": "2011-01-01",
+  "relations": [
+    {
+      "target_id": "DB-001",
+      "target_name": "PostgreSQL",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "LANG-004",
+      "target_name": "JavaScript",
+      "relation_type": "related_language"
+    },
+    {
+      "target_id": "LANG-001",
+      "target_name": "Python",
+      "relation_type": "related_language"
+    },
+    {
+      "target_id": "AI-004",
+      "target_name": "機器學習",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-005",
+      "target_name": "生成式 AI",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "sngular.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBd9Taw8qCPwwcJBenHfCVypUi9labowXDbU6_encJRo5lMSrpx_0fbB3vH7bfgU3encxMZOyRx84ImnKkRGZblxnra6Xx_5ON3A_qn_v6PeDftaa-Kw-vb8cdFGUMjMq3bDTncpTE2A=="
+    },
+    {
+      "title": "simplilearn.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSjTNxxXNzDTRiUD78UeZqiapdL1Kq32wi9Lf1BcFqS6JnanVcDVmI0295kBZGfH51zE4STQH_tV2VXCfDJty8QHcHK0l7Fzl2Qxe6-GNoTW2BvAvS9WpYnnp66aE0s9b6vta_huZu2NOopL3j3wA="
+    },
+    {
+      "title": "miyagami.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQp6CKmFdS_clgBvKqDHUsSzzzqvyW6ELhHpg8qf9OGPRzUyKFjW11aJWmFsffQ5pL9S9gVkbaJ3U5D5OjnK6Tc8uNack2wH6e8F27aWVnz0PsOrpXopKc0-eApAsYxHgiANM_aGur9NvPWUj3pvooYVfZ-ilCrQ=="
+    },
+    {
+      "title": "emergent.sh",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRZ2EBXP4_6NBKmVxit83TzECG0UgWqwzL1TTA4w_ZG7An-44OHN1SHRVgBZSRe4tO4U83JdcWsTl58dBhQh5P3zwAX4Za6Ah9JLdxjUL6xtK6zTQ-JPZvjuLJ6bJn-hA="
+    },
+    {
+      "title": "b12.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVPEa7GNPO3EKqEaPLEeiggoe9acDnYTN5bBwzCFllzSsXi5GCLJAY5sn6ql5Gb9H1Nw1-QgatRTu2rzUtbhn7VxaUcRUB_5GC2Ow0d2ZjmIEpCpmHAxLeEWcHKZdE3NhbLhqP5ZkKYS95yDvboZpiTpgxkA=="
+    },
+    {
+      "title": "therundown.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXJpsauSadovy5BjH-rCZYt3MZxixQBZLeA3xFk3CYbs1Vi-bQo9SndNwCQm1QFyMUAj-wxer4_omjerAkah9m44xiGsCfMTzCLmcjRkskfSAtGa4hJWh05wQ_w_4bxNW9WUZU-eEHkB9-"
+    },
+    {
+      "title": "benroberts.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc43WIpdu0RpJq8eqNnC1DAf6U6DzN1KcBVDbGfDWqOhtGZs4KlVMl2AzYkMCWtXjdzdqs_T5RSkaaL6_vJb1qqaZryKncjYynoNSHG3Hq_31IGcb4NtHy2pAO7VfPDme1H6N3E5o="
+    },
+    {
+      "title": "altexsoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtvbCz4QgMUZlfNqSua_P5Lk_nAfkdVWk4lGVdQmesZt9-jyaZ3TFe3IRBXIfNfmLn6GEcrWDRw4M8te8UxNLfMLcAyMVbvLu9GDJErS9rKZqWK6mF33OfLiDr2YPApZvLh8sLMO72WZnw7GrHxClIwKQO2_OLzOD1n3VoF3IXyC8="
+    },
+    {
+      "title": "nextgencodingcompany.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwRkNvLAyYvBAHlNhbE7LqkUXVAMRXcQ9SD-twuYHfb12wPPlsDjaDfj09rArMWU86DMZPr7PwoGe22yTb1ZkizLoBgNyFl673XOgzZyHC95_AI1CQkwKA0qx5o5Sjwri30FbUAvf6ugdqRIqB8FXz4HI="
+    },
+    {
+      "title": "geeksforgeeks.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0anRHTSOB26k0pG8JiZPmezVmsCwwhw9h8G5pl3YaFx-bQaM6HO3Wza-doP_xNHljsHPI4lV-KZk5gx9dcyP2FFE6cRUpSY0T9ejSUpR7XHfsAb6bgxOxr8dfCWB1pzBQmgXMiQN76vOyvu7yO-4uymJkl9lpcxE="
+    },
+    {
+      "title": "ionos.co.uk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSpTt7wZwcVo8aX9Cm_o9u1tqN73Q9wZ-1alQAgjZhkiZ-qajyYR84h2WPX_5y7AL-VT8Z6Qwx9hqjwa_XB80ipaaguNCEF3VNqqc6B9sTB2SJqn7VZMyLNkHc-QwjE3_3LInT08X2ChAyCNkzfL3cZxabVsK4bUZ-"
+    },
+    {
+      "title": "dev.to",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFllldbNrT8LOmjbUgE__ryujE5479Cbt7FS0YL_rtqkI9IWpprNT1U-P0uXFj13txrs_RRVxNP1OFl2N_YAUdrkQBuW86PFxHnyYSUi11RARfQmLynLDeOjQBqSsfaN141JZTsKzkJXaoZfJoIkwLK54HjsdgEWAMJtoLB2862sSILamRfDQlcyl9bv3cHgiXfnWJL"
+    },
+    {
+      "title": "hafencity.dev",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP9B1RGDD-KvFGjQIVnrZ503epW8N4j2r1qqiwoZXX7uyCcfBQhms18aoW7pD_x4GMqHp3vVm435BiPO19W9VvjGOf_BGuVNkN2iL0PSJWO1_92Y4l8mzId8pxywiTRzVFgfu2HARegnCVlu7iwKmdUUgpdylbpQzrqFOZ"
+    },
+    {
+      "title": "codelevate.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZyFl85ocLvq509oFZ112DpaTFd40Dc3r2HLADhrFII4Dxd4IszAndUQD4j1FO45Bbru2bnT-gBgXwOsPa2LvSxag9WT3IXVopA4GYd9fdysxpWKphlgg2140i3_HTCrUT6s1wlvzvvrH6n0GPqost3J3A3_IZ0mDYsiTQvJLK69j1t_FlZOZ5HW3IW7lHN7ExLZbm-0s="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4zCMwV-WkAHlHjdW6521nGYocqQfEB4KxwfT38B8I6Ls2W_a9xu5wY2xiad-o3norzD4hUrqQmrp0UJhlINXU6EzSBHYuc380o7ag3wZnpS57JmaNMz6PfCRApQw4h66J"
+    }
+  ],
+  "id": "TOOL-004"
+}

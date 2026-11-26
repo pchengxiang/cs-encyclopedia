@@ -1,0 +1,158 @@
+{
+  "name": {
+    "zh": "人工智慧代理記憶",
+    "en": "AI Agent Memory"
+  },
+  "domain_category": {
+    "id": 2,
+    "name": "人工智慧",
+    "description": "讓機器展現智慧行為的技術"
+  },
+  "stage": "emerging",
+  "development_stage": {
+    "value": "emerging",
+    "label": "新興階段"
+  },
+  "description": "人工智慧代理記憶是指人工智慧代理能夠保留、儲存並檢索過去互動資訊的機制，使其能夠維持上下文、個人化回應並做出情境感知決策。它將大型語言模型從無狀態工具轉變為具備持久性與上下文感知能力的系統。人工智慧代理記憶並非單一標準化技術或產品，而是一種涵蓋多種記憶類型與實作方法的工程實踐。",
+  "purpose": "人工智慧代理記憶的主要目的是讓代理能夠從過往經驗中學習、在不同互動間維持上下文、個人化回應、存取外部知識，並做出更明智、一致且具適應性的決策，以克服大型語言模型天生無狀態的限制。它有助於提升效率、減少重複互動並降低 token 成本。",
+  "paradigm": "人工智慧代理記憶的運作典範通常涉及一個「讀取後推理、行動後寫入」的循環，並整合多種記憶類型與儲存機制。常見的記憶類型包括工作記憶（短期）、情節記憶（長期）、語意記憶（長期）和程序記憶（長期）。長期記憶的實作常利用向量資料庫、知識圖譜或關聯式資料庫等外部儲存系統。",
+  "key_points": [
+    "使人工智慧代理能夠在多個互動與會話中維持上下文與連貫性。",
+    "包含工作記憶（短期）以及情節、語意、程序記憶（長期）等多種類型。",
+    "長期記憶通常透過外部儲存系統（如向量資料庫）實現，以克服大型語言模型上下文視窗的限制。",
+    "記憶管理涉及資訊的擷取、儲存、檢索、整合、更新與遺忘機制，以優化效率與相關性。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "04",
+      "name": "轉變資料型",
+      "label": "tech&info",
+      "description": "轉換、分析、生成、編碼或解讀資料與資訊。"
+    },
+    "secondary": [
+      {
+        "id": "09",
+        "name": "資料儲存型",
+        "label": "data&storage",
+        "description": "保存、組織、索引、讀取及管理持久化資料。"
+      },
+      {
+        "id": "16",
+        "name": "編排協調型",
+        "label": "orchestration&coordination",
+        "description": "組織及協調多個服務、程序或元件按流程共同運作。"
+      }
+    ]
+  },
+  "created_at": "2023-01-01",
+  "relations": [
+    {
+      "target_id": "AI-001",
+      "target_name": "大型語言模型",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-003",
+      "target_name": "RAG 檢索增強生成",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-007",
+      "target_name": "人工智慧代理框架",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-008",
+      "target_name": "人工智慧代理協作",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "DB-005",
+      "target_name": "向量資料庫",
+      "relation_type": "implementation"
+    }
+  ],
+  "sources": [
+    {
+      "title": "dataiku.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXAtVva-r6AqG4DPbWUuJMObClWAcbwPhJsBoFD45VjMwnc2NegS9kEFWbMIGfnZ6NTdl-6T7qyq_Vl5Gp7cLJSuEXMApHIx2XAI95sYSqhdE3k5P4dLROGsrvbGeQ9qpW7iQrHb_H"
+    },
+    {
+      "title": "mem0.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOOysORwEozo9P_Wa0nHPvcnEZyCvixGe1p8bZee-ZNHX9II7khMmWLoI55BU44UwmI7t6wLvMuiBfvQUKFaE5JFjaMe66YxFfW3sSFpfRMvt3foCPNZusUhXlbVlKZVeX7sKrFbnZt5mowNGMKEyLy4qaJ_k2xugLhg_PAOcCufA="
+    },
+    {
+      "title": "redis.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVX11fEDAVmY7HtKqlw0nn_Lh80E3i2-qY1667Q1FOaB0rNvWY2o_6UIQoScQvscOU0OSRdq4WsKzEUEQojvZPxcoPIh0zJNeVz4hiKMTo7EpLJyYNCNLRmJ2l8MeHrfIS0rtAq-_1XF-65sXspr0tW1g="
+    },
+    {
+      "title": "kore.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG95KrAXJjzI_zAQ522AzTtxDXsJurX8BGsKAf5W3U-8iCU9XFqErPB9ZLIktdjsC75kixBVJvcc12zw4mkg2U8-aLwLTY-BYq7ribUUus09fOs59cQvNIiQojAQxXNkFenwQfnm-uaShiXtQ=="
+    },
+    {
+      "title": "oracle.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF31yjXFt4MmlKt3bkc_6tJ02q9NRVnF-V_ucRMBd_M5MhglsqvSlGs2Iymke6XXDuYRpxEOdvZEGRA184tTFrZT2lAYAsbADnX6tjBb36zrBjG1J7TenvowYQ1wdSVCD8zOHYsXDKBCAG63zgTZpr7AJMKB72DERc_yztsOJcLuzwSLrfoa71Nc9vAwy9oAd7hytg64heR"
+    },
+    {
+      "title": "redis.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER6VelT0RqtHBnmFU-Jw_BV1hmGYcdnmp48pHj2TxWjkhyqULteKYbdVC364qnR9m48fsRXhoa7JBokf9Tf8Hmuq3iOwxYbT5OKZX70Q0v3TwHlWn_ShlWkNKaZ7cs39Soeo3n7NSeCpeh8G0RLaBL8SMqv2fjXVANTw=="
+    },
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk2Cbb3uQZB5L5d690jGyC2j4AzLPpy11id_vkDIDH8OcFEE2VTorOpRxx0CkPgkEeVJHRbhhpX-9bepnYOlqmLIChkx5OFWrBi6ockZI5XkqWS_5mJo3r6dXCnRApPSFwqlkMb6mIj3j4XQyWhZeQTm2iT8yYvqBqm_bRAeMueqADgLbObo2N5eX9vo4gY-DNPm6KiCNAyZi_8N7wOj9V3TknxIvv"
+    },
+    {
+      "title": "ibm.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTEZKMXwLcCDHBI4AshHS7ialV8tgZ8WuQrXUU1c4miI5XkTKdjqK7nujF4OEMfbRXzqCa6vt6Wl245toXPcNCLsaYMhm1l6c0I2_3PwC058qgeWh8JLwGzoP89NdwErkaDolFFRrGKLfozrs1hrUGCA=="
+    },
+    {
+      "title": "mem0.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3F4enKCWHRy73Wk55iEX7zBk6j-oNmYG2R9HCLsxterosRNlzSwQp52-PEPAlx8Xu-Ak8mFyhiWISVJq55_5KX0rU78eGfgp71eKwrj2k9Q6fKkJRVx8aecF-816JOCY3QZ0I-qSpHWXa-HDGq94NihrtgsPXDGrZZxV5r8NwItOljHW84Xu3dJYCHizUzcHBe6ef8Z2tY4M="
+    },
+    {
+      "title": "ibm.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQm5XloJwgBkL6r54IEkOnBJMiygBk0nSTnm1Mq3Y_SOHeTbENgc7Rs0yNmnqfEoIa4wQHuliSvSf0zio5ey_mGdfbGJY30CR3eoLWd8kC6b18gRGyyFaYi9Gq3AjJoX18CI8-QzMV5YS0jA=="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFugK7UbPhHh7s1kdUyOc6D1ebkQNl5Q10_EJfE9nUEvX_ex_pW_MCesX389RlORzaUvCGw-YZ-Ux08OvevDT63Ngt89wAtSqSzga95y_13nsNNEmkedulipvFvIjqd8To6lIBaalp3V4nrBcc9pEcwA2wr6V_qt-WqqG6ZwtG0KK-tN6qrhAVz1QbNjdccfQ=="
+    },
+    {
+      "title": "machinelearningmastery.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH7IwODGxOlWExykbV7HnV79pbESxxu5rS7LIUDAPyoRaQ3NyIQxqLEr1jT9G-VUNx4bCSYL12RV3i7D8wGLCmTdTL1g6Q6mwpC_SwUOvq78Zrrjs3s37-D9TTUVONlcHz3998eIf41BrIX4MGUSrtvD51KlCIni04M_MOqzA7CmVozyuPC_UWvYz54-XDdTejiMOd29YPMjfS8PnXe1CAjvlpqYV3"
+    },
+    {
+      "title": "atlan.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEkrM0FQq767WcZtLyOWnsjbVxTsE_CiOuvNhnjWGLPG6T6RMRKb1s_w_r2TQBic92EFHEjHhTInWk-VIDGo7Ag7D2DElsJB8jr2FJLZgG-4PKv7cjNDizx6snNyWisMsFFrHb1g4SPOmYjQ=="
+    },
+    {
+      "title": "marktechpost.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6Q28RbpUfZr2vXwprkwPwa-GaodrTxZnZCqFTh-iRxHOT1ZZZ4PMzzaWkX25ExwOSXQIFav4uO0rqR4pmBnd8ST5YqEjll07vBzVKd9DyCayxUsb7vtSv1Gn5_yvb24-vUNoY3CntAElPv1OvKNcK9589zZI7g3kSvf3atfDlEJ3oT-Fq_EDNOgC_Vgwu0lvQTRhNxNEy2fjx7epj81NaTUU="
+    },
+    {
+      "title": "dev.to",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCGGgIjHQ-9dxRl_rm6FyIFPsk3L6dlUETHmVhkxzpPQ92RnivVqs8-x63VyoJU1Yfgj5Oy03UJW0FuGh_OFUc63APzdlMAyOx1WnyWV9xB_2NSPUgcZrhHyUVbbGGUb4S_ZkWinqDMZ8OfpSh3qcUPAaTSHD7Bvbn5InEqGnHpsGclDtWKL150D3WbT6zakf6dQeSl6v7O53O51fn"
+    },
+    {
+      "title": "tacnode.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUxyAw_90PfwZcWgF8L_h1LP-kSOV3tX_ltNmGuNLRJlBFCUkP2H4K7p_3UPNVgw2LaTP7X_dvcLjkNzcQ78DbyZ3R4gMQUaOGZ6AaHUqohvqHO082H9bw5Kh4fUs3lhR9F7bRapsBBRk12m5TRLyBn7ZFHV7SxgeV"
+    },
+    {
+      "title": "signals.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsexRAE-wlJbkUzEdGSZj9C4AbQMxLICLQvr1lsiDFQKSxY5pD_QXSSMw7Ib1QNYTKur9cPds_z40VVwyueZa1cRmHhvmFgAD6frhJ-MVSseVRTktV4NeWqrJwt_WleH6TH98K8X11GzIGgOM="
+    },
+    {
+      "title": "reddit.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-QTTNSYt1MM3A0ZK_d0RyMoP5QfpEYO_rW6wnaQ8IkzJpJH3AaQ4pZiIRnqpa_ksxlpPYzGFmoCxsZUwoS3DNOI6pvDdgcKkWikzn3BHeXeoz-x61Ea_sWzM_82VJqur56nTY-E5AcVee-Dd3xpzDwz7MfNnDJGGnLWrw0gzlV2ufomPPctYHNxe7ZuF0BUWQqN0BVqMqoynKEPGt2i_GvMVBbX0CjFy2"
+    },
+    {
+      "title": "aimagicx.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGewH2hoWniyqMMsxfiKhYTsk_z3HHz7Y4azBcx-943x_aitSsxnEKH-pudVBsMt1tSvXipUDApP3qIEUvrzvtfoF6_17FxEiWW4R-XoOWPj78bo05V2TmXrBcAZZVp0dW6CKK1-qDaPI9Rs37x09hQ0yBnzjpCFdXVeSzytGDq5c4Tt55XUnI1--I="
+    },
+    {
+      "title": "bnext.com.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHACewwayynIHxvbkE-5QM_MwBpbyu4ghz_lNeJ9R0UVFjwCONpIrBLCEfQoC5zi4b0YOWEcmqiMjI1emD81yNrJN4U3zbx9FQT-BVxoWz8zq6Ds5j_VkLARZ1daJpSTBkIm_ycwxGV4Aui9Yn4x3ey7pnW-KyWJJrJlWrEdTAchw=="
+    }
+  ],
+  "id": "AI-010"
+}

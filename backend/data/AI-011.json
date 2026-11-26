@@ -1,0 +1,116 @@
+{
+  "name": {
+    "zh": "基於人類回饋的強化學習",
+    "en": "Reinforcement Learning from Human Feedback (RLHF)"
+  },
+  "domain_category": {
+    "id": 2,
+    "name": "人工智慧",
+    "description": "讓機器展現智慧行為的技術"
+  },
+  "stage": "growing",
+  "development_stage": {
+    "value": "growing",
+    "label": "成長階段"
+  },
+  "description": "基於人類回饋的強化學習（RLHF）是一種機器學習技術，它利用人類的偏好或評價作為獎勵訊號，來優化AI模型的行為和輸出，使其更符合人類的價值觀、意圖和期望。這種方法特別適用於那些難以用傳統演算法或數值公式明確定義「好」或「正確」的任務，例如自然語言的生成品質、語氣或安全性。RLHF 通常作為預訓練模型（特別是大型語言模型）的後續微調步驟，旨在解決模型在僅透過大量資料學習後可能出現的冗長、偏題、不安全或不符合人類意圖的問題。",
+  "purpose": "RLHF 的主要目的是讓AI模型不僅具備強大的生成能力，還能「聽話」、「有用」且「無害」。它透過將抽象的人類價值觀轉化為可量化的獎勵函數，引導模型在生成過程中不斷向人類偏好靠攏。這有助於提升模型在複雜指令遵循、邏輯推理及內容安全方面的表現，並使其輸出更貼近真實用戶需求，減少「機器味」。",
+  "paradigm": "RLHF 的運作典範涉及多個階段：首先，準備一個已完成預訓練和監督式微調（Supervised Fine-tuning, SFT）的基礎模型。接著，收集人類對模型生成的多個候選回答的偏好排序或評分數據。利用這些人類偏好數據訓練一個獨立的「獎勵模型」（Reward Model, RM），使其能夠模仿人類的評分標準，預測模型輸出的品質。最後，將原始語言模型（策略模型）視為強化學習中的代理人，使用獎勵模型作為獎勵函數，透過強化學習演算法（如近端策略優化 PPO）來微調策略模型，使其生成更高獎勵的輸出。",
+  "key_points": [
+    "利用人類的偏好數據來訓練一個獎勵模型，以量化模型輸出的品質。",
+    "將獎勵模型作為強化學習的獎勵函數，引導語言模型（策略模型）進行微調，使其生成更符合人類期望的內容。",
+    "有效解決大型語言模型在預訓練後可能出現的輸出不一致、不安全或不符合人類意圖的問題.",
+    "通常包含預訓練、監督式微調、獎勵模型訓練和策略優化等多個階段。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "04",
+      "name": "轉變資料型",
+      "label": "tech&info",
+      "description": "轉換、分析、生成、編碼或解讀資料與資訊。"
+    },
+    "secondary": [
+      {
+        "id": "08",
+        "name": "計算運行型",
+        "label": "computation&execution",
+        "description": "執行指令與運算程序，或提供程式運行環境。"
+      },
+      {
+        "id": "16",
+        "name": "編排協調型",
+        "label": "orchestration&coordination",
+        "description": "組織及協調多個服務、程序或元件按流程共同運作。"
+      }
+    ]
+  },
+  "created_at": "",
+  "relations": [
+    {
+      "target_id": "AI-001",
+      "target_name": "大型語言模型",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-004",
+      "target_name": "機器學習",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "AI-005",
+      "target_name": "生成式 AI",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "amazon.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK0mVv2YDRatOZPlokDr71N6k8_hY2Su7iBV55y6VSEyxTVgRlqN1q8zgVDOmtKLmEICvJvoRtKRLWpdrapH8obT-5UgBrBREGwZ1ziZUnOKPNuAKPbhGUfBdoS2iyvtNAva_yxrFGGWvyUSBC1gtcU6dx7QEspaTAsLbyaAqs5uWhwbBCrxA="
+    },
+    {
+      "title": "ibm.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdNlCqp63vMecCHwDnGR1cCLpzxNhO06O4du6wzoT1JbQ-nRYWOswCb2XF3zm_kRkrdtj-oip0_KaXo-6NzZt6MimIiDNahQ3lMdjcR_GiF6WRkcbJrPCVpBRs169qZ9NA_-ROg=="
+    },
+    {
+      "title": "japan-ai.co.jp",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESJOvZKLdUpxg5zgQTXpJxaLP1sjW70fbs15GGTRprc8t5jhHgGLwuLe7XMi-wfzgcM6qMgNtjGMWGEk0PVfZQ7pJdZbqBAzQ5O0fLm8pPQQghiP2X4RdhB6elYw=="
+    },
+    {
+      "title": "amazon.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMfNtzLhtnW87Fh8_Vja1Y1f0jgdk4YCOpkE2ujK3FOyCqOmiGHkqmk4nQbxT37RwpDGHaF7OHyRFKzxH8hxaVj6AFo1HDUlfcxfJQWyL5iY4VYKIAC7hQEYuuN8N_ZQkdAzY14bpMBrNBGNqvgm-blZ-jP3fOmUXJDshfzYBVTsqOzujHjUE="
+    },
+    {
+      "title": "amazon.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeWuSMPnlVW7A6lFpEYvcrauwx7s6flQyWMceC5knSNCn-robtPX-_AH_nJm5l7SgE1afIziOB6ClmnAomIOGgnCSK8JeCjCcbmTFt5Zu-IInvENlZOJjAoKjjfK6WZcx_q4frBgU4_E7hB8RKxX4uCmv11g7QmpvyJ05LFpdMlztZgNqMWms="
+    },
+    {
+      "title": "huaweicloud.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRCQ6u1V4G9i1hKspiL8dNv-EuSqlPVUNyThe3ZpQuIjdd-8ifqE3g6wHcEoxUq86R-gYBjR09oh-T6zLb8666qbbugdUnWdz5qw82MxybWUJcRy_gO3r52XGfIqsV8yMj2IQDeQrKv2fBRg=="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4t7hXJVsZ18U0DWoHq0ABzIXwk6mmpN4Xel7ZTH_7RrhjI8zHx3fjajl5R5PwoVkE1FQnYM9IquYUQ3JFTj6H5UJ2QvUm9ll-GAEjt5qj-pzvXDAFDRsA5NI6t4Hoc8sTBVpQ8wQ-IRqIlI5zTHvQoStcEYtUzm7S6XEKs9Iy76MnsrWMXh6_GunlE_c8GSu3lnvdS04-FyF-WVhDYjT9nSqsg4a9shgISwEBuPXPhiAQnw2VyZfr3PiUyb8="
+    },
+    {
+      "title": "ibm.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEitCMoS5WwdwyJ5rzf-VfV2iUSjD2RYhyNHv9pGObRzxZ-h90zJvkdQZ2XeerMMibtV7oeylqZTa_OXeBH6wWyfqAfqfvelfYTuDkuKGpqjryXak4vEtKiUKUOURd22kalU0iPZQ=="
+    },
+    {
+      "title": "gate.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj1sgBztCJYq80VVFl4RPlwoZOkViGG9iz0-6PjMXMXA8fkdDObG2T6SU58yh5MjhKigmQ4xjZMLAdq4joco9paRhouW5_s4BC5u25zNjFjW5U8O6ukqX40vrkIF9PId6rwF4er860FIxi2jn_Z4pcewxO4PLbG6NZbojYV2fcyn_sCakuUQ=="
+    },
+    {
+      "title": "jyes.com.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQu3MxddCr2AlsGiqdtXalbrIUVPt4rzgxENy19onB0FP5IdSop8jnvVCV2taydqXjTRPgFVDE-4s2MMY6SXSlCtpSvVXbQSH20kVd_5Ag2VKLoHBLDBkJrz7HCwQVP97bPnRk-aSXMD54H7Q="
+    },
+    {
+      "title": "huggingface.co",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVg6o75G5zbtPAyBMaOPlZQeWnuiJsJlq1R4hXzuAfxWs7qTpQdN7i7gZnD6NVnLQuiqypiHIfB9li4429oo0vkohjmydz9b90_ZECxL_9i718lMFScSLIkxmqAiw="
+    },
+    {
+      "title": "feishu.cn",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3xIfUiUu_hrxzzMUD5bju4lBSOQBnuDxatC6_Rctu2wyJ1oa3amD_FC4melwvSAmBdluY43RB-oj5wgUQh1SQk_OC2ph8SN6bgb3v0o_6X2z-MRXEWSlWtb0G9nP48kI_SDAaFM4GMo3vqFPZQu8lLqAt6BUc"
+    }
+  ],
+  "id": "AI-011"
+}

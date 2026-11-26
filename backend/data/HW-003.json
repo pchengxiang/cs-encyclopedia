@@ -1,0 +1,143 @@
+{
+  "name": {
+    "zh": "無人機",
+    "en": "Drone (Unmanned Aerial Vehicle)"
+  },
+  "domain_category": {
+    "id": 8,
+    "name": "硬體與架構",
+    "description": "計算系統的底層硬體與設計"
+  },
+  "stage": "growing",
+  "development_stage": {
+    "value": "growing",
+    "label": "成長階段"
+  },
+  "description": "無人機（Drone），全稱無人航空載具（Unmanned Aerial Vehicle, UAV），是指無需人員登機駕駛，可透過遠端遙控或自動駕駛方式飛行的航空器。廣義上，無人機涵蓋從小型遙控飛機到大型高空偵察機等多種飛行器。其發展歷程從早期軍事用途，逐步擴展至民用與商業領域。",
+  "purpose": "無人機的用途廣泛，包括軍事偵察、攻擊、通信中繼；民用方面則應用於物流運輸、基礎設施巡檢、農業植保（如噴灑農藥、監測作物健康）、地理測繪、災害救援、環境監測、高空攝影及娛樂等。它能提升作業效率、降低成本並減少人員在高風險環境中的暴露。",
+  "paradigm": "無人機的運作典範涉及多個核心技術整合。主要透過旋翼（如多軸旋翼機）或固定翼產生升力。其飛行控制系統（Flight Control System, FC）整合全球定位系統（GPS）、慣性測量單元（IMU）、加速度計、陀螺儀、氣壓計等感測器，以實現姿態控制、導航與穩定飛行。遠端操作透過無線通訊系統傳輸控制命令與飛行數據，而自動駕駛則依賴預設程式或人工智慧演算法進行自主決策與飛行。",
+  "key_points": [
+    "無需人員登機，可遠端遙控或自動駕駛。",
+    "整合多種感測器與飛行控制系統，實現精確導航與姿態穩定。",
+    "應用範圍廣泛，涵蓋軍事、商業、民生等多個領域。",
+    "隨著AI、5G通訊等技術發展，自主飛行能力與應用潛力持續提升。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "08",
+      "name": "計算運行型",
+      "label": "computation&execution",
+      "description": "執行指令與運算程序，或提供程式運行環境。"
+    },
+    "secondary": [
+      {
+        "id": "06",
+        "name": "協定通訊型",
+        "label": "protocol&communication",
+        "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+      },
+      {
+        "id": "04",
+        "name": "轉變資料型",
+        "label": "tech&info",
+        "description": "轉換、分析、生成、編碼或解讀資料與資訊。"
+      },
+      {
+        "id": "10",
+        "name": "資源管理型",
+        "label": "resource&management",
+        "description": "分配、調度、限制與回收系統運行所需的計算資源。"
+      }
+    ]
+  },
+  "created_at": "1918-01-01",
+  "relations": [
+    {
+      "target_id": "AI-004",
+      "target_name": "機器學習",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "HW-002",
+      "target_name": "ARM",
+      "relation_type": "implementation"
+    },
+    {
+      "target_id": "NET-003",
+      "target_name": "TCP/IP",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "OS-001",
+      "target_name": "Linux",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDlNWGojhEKFQ6ALMSkhtIFA0FSVdItUtmRNmPbVruoV7HPzxzAmFwfrva3Xpm5yAHfvEi751RyR3Y0Jo7ptp3HNVKAXBqO89lcQMxSMghe07pb2sXAX5_OZ304qgRuBac7hDBEaLrFxCYlXgpz2IjBCTA3YQzymlQ0yGotQxlnfkAJRb"
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK30KTPu6aK6W10ChQVolnCAH3vNur0DgmBcdkyfc840iJv2K-YTBU_7dwE-CyuLNbECcc76YpurP4EFGlrop-m5m9P-ji4tHt5vlKz4u4vPTWwqj-6EQSYjGmoZC-mVLn_Ersqx7hsSGZsODVICvv6Hyk3-uHzIluBSAgHCNFUc6Zs2Ctu9SjgSTu6WSd-g=="
+    },
+    {
+      "title": "informatix.co.jp",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8JsENlgzyjT_YkqxhyvnWcXl8SVZtNruwNuVUQbMXnjitx_GKgWblqcEoCX5nWHWufWfk0u0khVIPVmZToFlzTMUG_TCLTXJgSrawziOM0EsQw5TdpfR7IrKqao6Y"
+    },
+    {
+      "title": "mnd.gov.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU9RjlM3n3ch5i8m-i5M4shQZpxE82Ti5uFrl8lh0MWJa1GVf2OBfWe7FR32vZEAVgsnaBVS-2wWaz1QpwjOOS-4MtKE5gsWOAZx90YdwlIa4ybYAFzMdKs6uXRLa6uiRXQ2JabN9z3CYak1cZoKHtmk5foXyE1U6ktJCOWXHMi2M5qMW3WE5xHkC068zgQ07Rn1fLxQNeej7PdyRc_6ed75lMi8_mBpvr5bGFrdnnb7D6ZzGhktTDqByDKfTXCmOjED2VrTgMLAC97m-Qseur9nCESmvVgYCmbttD6iYIOFlSrAv403iJ9D1w"
+    },
+    {
+      "title": "ultrontek.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgsdTu19d2QSpw1gz4YMEku-RTAcOvLyd6FDS1sJmEMoCjW1yW2GFtthE-ezIaxvL8lqbkCxQcbIct0qRBCEjOjG_z_jWo3bUZHyVlAOXKx-tN4hK_xN8YF46LZhy_s_YDm4c9cFjGQql0-Lk7icllCh3xHNIVP9OxlyikQePQMAfsZNLAhmA="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq7kGWzvsdlez6z5WTC7ee0GQNlRjQEu7PXV97q_ysSIxJDzih3WReYqYl7OzIAA13qpghPcyX0WnlOCjomsqGUBMoGt0mwmaPGiQGcDoaVTxwRYT8_jzKfD0ogk0ynhUKGlySSGKBBsEMqohyTSlqv5Sp6hoSOyv4UAemHA2Jpw=="
+    },
+    {
+      "title": "dronesboy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKfoEsRQRR8u7ldmRb6lh-0u2p8AA-5x5_CnnhBLvyzWnfRpkVkP3jE1XlPApVVDmP7GGG8cVcjDjHwpin7cZ3bSRXnHUXHoNIv9xZx_DpwerLyReilINIXj2SAZD1WkN8w-I="
+    },
+    {
+      "title": "wra.gov.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNR7Gok1CbX9J-zQgIwWnGDkgjL8MCbZQZH3h0IqGF5mRakhhAtmFTgK7LNLxwZScdAJ0iuUCXpRbOPaKfz-Fpvb_RpNAY8Vd6GfAuIoArmYDuW_8c3lp9rYvLNQanNw3TJcZ_13hAzn-XMLP_9MfNes0Q2eYYd0TpqA=="
+    },
+    {
+      "title": "cd-drone.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERL4wEs-5ss3SPQAw0srsReFXDWVuPIw7bRgAgEYHRlEPiwTnltEMzphgF9wImURhWLm9jwb1nJs7D-iSu69goIirxE4dnf4Bm2t5VK6veuhzT-EYvy3iMi4Y="
+    },
+    {
+      "title": "dronesboy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoVMf6IWHF5oYuQnvE9ZhaWvF_ykFv8Hm6eFXyU-etrQaLbVqjNQY2fKMu56PxmLshpG20K8OhW9pDfSPlWGaxTcmrdYOilePmxrhz22Rpd6o-9_d2slAZ-xqJO1ERUHs="
+    },
+    {
+      "title": "ardswc.gov.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDvAkq3Ce8w49tsr7aQvZHmN9rQlG3YEvUw3P7WJsyT98bkU3EwbHUWVZ40eo4Lhf25gsc_6TWhuIrE2VhngrZumwoHih3MjgGOOh0JO5PjPT3wIaNZCFblRX-Nc0e6aiBJeVFnevDQI1EDu3hF9ALn3Mo4u72RTzI1lTfqAPnLNDDIhnxxUvGBM4D87bRqGN7W0Tx"
+    },
+    {
+      "title": "pansci.asia",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5UJSrPx22HdbYdyPn8HLNk6DcafEKci7fTIHihn1ea2-M7uFXqwUmvBMszhdWj-o_PQsXeml6Y4V0PrfRym44nkFNDyJILNijlFcdfg5JXF1e7On-F31jrcXQwQo="
+    },
+    {
+      "title": "i-hishida.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHksnzUhxfA7RArD5x1SAK9ilcRdJQSc9Q7JQlDxLgVuaz4J2-Ac5KRPOLL7XO47HCSmUggAMrzJHILJaIY5-RmhV_ZGnR2WWQuSHIIHLnAXLY4wPl37iSieKcisJH8J5M="
+    },
+    {
+      "title": "mobility-techno.jp",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESPC_E47UqAT4mYDEPhihjUy2C-KFgZ-Mt194Zaxc7HR1aORxfTWcy-Cp7-RQaTFSOa_WVR10h0Yjp7qhR92Mbs-ugjE3Wb4asM4GLgKDN6nkF2jx7GsT0szHCHgq5WeHwJiCWPrwdep2fMdYOfTl3yC1J4CfI-hSiVnT24hkH_xLf"
+    },
+    {
+      "title": "odschool.jp",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHawEGwZvh4z4Z-HchhMyW2wTbk179iePjdlinhecwgp5OrvAeEFns_Cl7MnyV8hAUqvtUiQfc-_i9NmrA7ehfF5Vqrr-fhteOG1toujRA-zDJpR-eHv8L9cQvAIbSAEwm1Bc97"
+    },
+    {
+      "title": "bcnretail.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJky5jpKLgRpxBJ78TYRxpS0y7xJTU15xRkDJEwZbp8hiCZdcM9PnvNETnM3jt3kB3QzFalydxcPf7aEXpZmDz1Wp-ref_MmT2JQo3r7I5oTweBVF65omjt9gEfPjsWUK--hKiW81aXS2Am9E5oXgE-IX12t0g9wMbN_kk6fs="
+    }
+  ],
+  "id": "HW-003"
+}

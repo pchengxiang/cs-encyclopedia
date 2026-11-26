@@ -1,0 +1,185 @@
+{
+  "name": {
+    "zh": "QUIC",
+    "en": "QUIC"
+  },
+  "domain_category": {
+    "id": 3,
+    "name": "網路與通訊",
+    "description": "連結裝置、服務與資料的基礎"
+  },
+  "stage": "growing",
+  "development_stage": {
+    "value": "growing",
+    "label": "成長階段"
+  },
+  "description": "QUIC 是一種通用傳輸層網路協定，最初由 Google 於 2012 年設計並於 2013 年公開。它基於使用者資料包協定 (UDP) 運行，旨在結合 UDP 的速度與傳輸控制協定 (TCP) 的可靠性及傳輸層安全 (TLS) 的安全性。QUIC 將 TLS 1.3 加密直接整合到傳輸層，並引入多路復用資料流、快速握手及連線遷移等特性，以解決傳統 TCP 的隊頭阻塞問題並提升整體網路效能、安全性和可靠性。該協定於 2021 年由網際網路工程任務組 (IETF) 正式標準化為 RFC 9000。",
+  "purpose": "QUIC 的主要目的是提供更快、更安全、更可靠的網際網路連線。它透過減少連線建立延遲（實現 0-RTT 或 1-RTT 握手）、在不穩定網路環境（如行動網路）中提升效能、支援多個獨立資料流以避免隊頭阻塞，以及允許連線在網路變更時無縫遷移，來優化資料傳輸效率與使用者體驗。",
+  "paradigm": "基於 UDP 的傳輸協定；內建 TLS 1.3 加密；多路復用資料流；快速握手（1-RTT 或 0-RTT）；連線導向；透過連線 ID 支援連線遷移；擁塞控制與流量控制機制。",
+  "key_points": [
+    "基於 UDP 實現，提供類似 TCP 的可靠性與流量控制，同時避免 TCP 的隊頭阻塞問題。",
+    "內建 TLS 1.3 加密，將連線建立與安全協商合併，實現更快的握手（1-RTT 或 0-RTT）。",
+    "支援多個獨立資料流的多路復用，單一資料流的封包遺失不會影響其他資料流。",
+    "透過連線 ID 支援連線遷移，允許在網路變更（如 Wi-Fi 轉行動數據）時維持連線不中斷。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "06",
+      "name": "協定通訊型",
+      "label": "protocol&communication",
+      "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+    },
+    "secondary": [
+      {
+        "id": "07",
+        "name": "安全門鎖型",
+        "label": "security&access",
+        "description": "保護系統、資料與資源，並控制驗證、授權及存取權限。"
+      }
+    ]
+  },
+  "created_at": "2012-01-01",
+  "relations": [
+    {
+      "target_id": "NET-002",
+      "target_name": "HTTP/3",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-003",
+      "target_name": "TCP/IP",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbPVJ6SQwQvQsSt_dK3AYxAK55u7El5rYu6Jfgl_x4XJD1ajwrkRhNgxAOVXCTw-nNWmBzN5RLuOLhsrIc0G08MsnfkopSQ0KW9ImA0vsQecl8YlHxrvV9BubF7gg="
+    },
+    {
+      "title": "checkpoint.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCci-XwsRO53cmf12Jxjxs2OBst9Ju1a1LHViHLPM5G3hLGErgq3aBIMXHYZxFuWZV3oFDJVZBvnidWb262AJ_GkjfVMhaPA9e8q1IZnwrPbO5vRQFOyCH4p90OHZvAF7uyWMwQrWhoS_6_xH_Hjz9IXkEUUuoP45Tsb1kxVc="
+    },
+    {
+      "title": "cloudns.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG45c3RmghdgtyM-PrCIIgjx_Jmr3tkWGJ_jDEdOuNnGkoggNI4vGgnmKfru8Mh3xQD8lyigagcc6hzFms79xwesA3OYE5DHxKEyjeGebbBrXiQhoPLDHoMVQ-oQ8HJJL-PE8QLhLapUo-sms_DUqNHqpkInN7CEw0v6-WypAp-dxk3XZ6CiZEk5EBKUA=="
+    },
+    {
+      "title": "zscaler.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR-DS-JUvkWp6eBi0l8hcKxm1CgKybh1tC9H1OPhjgwVKS8lM0n6UkzT2-I0bH41VMVWBiUb_fDozf93_a0D6rmL3BBNdQGxMcPm7fdApRp5a2pTtf_Pyk13juowSkm2wYmQlX8Ke7kILIdzd510YrdAELyJHMnQ6-Vz8brStmATx0yg50DvfzBrVUpj82dhb9OzAEC3X3gv9zjr9IGMhnWjLkrMyWpQ=="
+    },
+    {
+      "title": "sycope.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOtNhrOCrqYCpi6z_HyU9aNm4jjXjKkrrxvWoexZTI3JOrzSIAd8G9hHG3HQrlHQhTwcTcrDRIVvDbmDj6bmTiL0OIPMf8AHPrV4ZBF_r1507KN7oj3g58pMotwzlO44HTR-9KiCtxAytNoQ=="
+    },
+    {
+      "title": "chromium.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsF0xEbiH_xD2l4XUYGFMXxbWJ2gVoEyhc9BX0QDjl-VZkfoK2xM4mLDsPerg8dVQFUSHWJjExkmw_9itQoXzk1SgmIOr0IK_vlipK-K5wfLYVP_J2RrdNTQ=="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyxS-Te69lq8hEiXb2zr28TIm9tM8fBUJ3cf9VObXk9YiZEF5Znf7bWsmnaN3EzB02ynilrMtvCKf-L00d0ThSmatu_0Nou2LNh6-QQELD1VoJlDc1y4TpKXuo4brKhg7j3FBML-ax_GKtlwTdQFP4oRw="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDSfdwEdgMsCO0tOaHC5JNLSnxQz2zWH4iS9l3u5fbty4-_p7ENBbveMiM3hqqaYKTKsfGX_d4LTDHfE8d-Iko6juGXvyL8LzX95vFBpgOFAhFEbgUA2KTE21PCGM"
+    },
+    {
+      "title": "arxiv.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEecNR8bzhwcEkIG29Qkyiz570KLLa8nbB8PJX2i-pzZYWfuwZc1lQe6-DkE6ZBCtwrWNbGqf6cD9E3WekGXjd7JogDn4s7twSExFcvCfpBzsezFBZci3trvkuJc2xi"
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp9JPhpo_CeS37IulXuA33GkOceNa5vyilH7mf9ZLWZoRB-GY2bknKS5OtSpNARvZGCiXP19WsKdOPmGKYj4kB84N9LSjbz00_ZLY8DTF1uaqpcEWnD1jJgmUSOTw="
+    },
+    {
+      "title": "publickey1.jp",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaje_nqG6g-Yn1mbOlZn9l8_G8rekqdcvG55iYToj0t1jWcctgz4wSZ93airBHkMDsra7HftGpBvh09zIj_hnZpHrF0PtD1ePTdBKUF5moslTp4meNUYqxy4DPpXEoftrsq0-PY1wRqNLji_AhgKkZ4L5LHQ4Eg=="
+    },
+    {
+      "title": "rfc-editor.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4dmi1-KaOlFkOrLFHfbx84op4HxJiT71p_iYOktKP0qCVCrom_kcF0InLpb0L25RetGaMzYlUNUuMp5qtdgjtqYn7ul-wDFJ5vW16Gzi1ZV4h0HI2cSj0I_5ujAJ1Mt-u1oE="
+    },
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErfUe6fE-_r8wosx8hpBKU77LrobNNt4HjDSg5oOWrSENIoFjUWE9SPEOPznraqtcnvmW_qmJBfmqE8VW63c2iwl25vdeKARVycKwjuIqb_uu1GlwtZZKwNQ3VoHZO"
+    },
+    {
+      "title": "gigazine.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaf73rnF4f8U9eRJ3B-YOPxAmFVS5JhTSTfCF0BVmxsm_2y0HbHfrb5VuAfw8RhhSfVxUwqoAKcef4ACeVNvpggZv2WikLTv31zLZ79jFR94FiNMrJwZ-loRB5QvcRj9p80IGq8l40RNIpM2Q="
+    },
+    {
+      "title": "pasqualepillitteri.it",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXF-LeO7-gj2ngpPV4h0fvPTI-WDj7hBDykkdFHbz3ofWJJE_51KZlKJTbhkCRnLvGn0QhMzQPN-Sr0L3zo0lrhqnNxiiWpF6jHbyNhgo0yj0O60rok5Px7RgNS5suxxMjjC2OEZ57IxNH7xpJpZhnKSj0nnQviOr4X93EYpFirPc9PZVUjsHkQNhE8koB"
+    },
+    {
+      "title": "emqx.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsc_c_TU0SuX5qaAfSHQe0wKLRVZQVqLZ3ON8bt1wGmaTj3yuxeJC_iSjMwY1Uk63m5B1Nx85T69wI_nEntZcv89y6md_rXLNoJCfe2SwQFjLpkkQ9NN_nC3xKsOJzfnfmFrHt7TKRgvjjL2RoAHia_4E6n-su199OSKvQGs0Vm4EV6Ua-DAHb8TlmZIfSfR5L1_4="
+    },
+    {
+      "title": "tixeo.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR1vm0GxZ3xpO9LA1TOACCTusI_duzzy4BRH6CLlcebp7XY8mGcLBILRHhUMAueBOUswOU_Kk5D8rZUumDI_Y8P7Znvz17PiGK5j2zRcUszj6UEpIHsIXJpwzVZ_X9uB7Jowfbo5-MvP3JztIHgKWUqxVeExPiNMCDnWevp_09rj3Q5PTusfya7hhZ8_2EA88fPAUuokAS"
+    },
+    {
+      "title": "dev.to",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE24m01-KVwFczwfTkIGWNqRi6V7YDzVNfjaAZHWxkBxPm3Ytm0WGP2OM0xLzx4j0Xs5RwL8RwWDSDr6x2u8B_zTsEi8aR9J9lBqxqKJ47oX0mvJYD1y5d7Rb1IZKYMw8FW6jlZAISg1QnHgAZic6hf7s8MXgq8ZFljw_Kaxp8NPeTFo8sw7TzhUZHnqx0Rxc_kGKz_3gM0P-cagVhrQ3O-GSRa3LJTVa47a8FObPegouoKFUE1cA=="
+    },
+    {
+      "title": "emqx.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHhdydkFWe-rT61L9cfNq8WHW-W6JKNg0Kmhm1VQDowagE5q7acSv7nC38_vyxSK5SE7KK-XaWhJsx2YHG2Wv6fi2RLeC4MYHHMhiYqyR5nJsVF-xltCwAc9b2S6H2LK1H-5jIl5ubZozOz9bhMzWO8LwgjStxpcf3EHs7mFXdoHncJSUayfEjR9opdkgzb4XIXNg="
+    },
+    {
+      "title": "f5.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqhJaxsDzmy8rBTrEnnSNnT2QDVSttibWI90jBoWFG_PezC_WRhd0Blyb0KnljYCQ3YQaHN52T4HOg_zkDToanichqm0cUKDb0DlAr5ysD8K0R4ybOL_AY8OL20Ril-QRB"
+    },
+    {
+      "title": "zscaler.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAu8e-895Zkkh0mlmL_gGsJsQxl-Fs_3mAQlNHQuQv62sSGdLYEnr9NxBVECUcrXPWc4Fi63n5DECIO6XZDyCI3gCDbsuwNP7k0z_cJrovZK0VdsUhZWbAFzTiEEBBQYN5VUe6KHuBWPG-PcMG7-EVrSQiK0MK2RtJCxk5SaqpiimSZnls_KBjhwCTmkohs9geaLWLOwCJqkqk79UAUU9Rfb_Ng-UTjYseQg=="
+    },
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYl20z2uriY_K9_I7o4SoTV6GsDSvB-RKLj1d4CdpFo8etuEkEtN_njv6NXXDMB5Y5gWf3nP3pm10ChjVq6GP0_I3SkqGuD2I6dlNJEr6Q8kdqnz4QnJ-SUS7eJff6dpKYIndoVcA0ORuHPhv1OUHCMG32kt8lbMieTgwI52438h8FDOaeMC30DrPTgTD00IPSrfzwYPwZ1P2lR1cHJr1-gTXjoNFyh5rhIw=="
+    },
+    {
+      "title": "orhanergun.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUFJ3CJX7-ofPJqDtmggpoJlIQFIralaynueP6uVw3YWZk_7Rd4rXqlnfhYBRy7VMpklL4wyzdw8teE2N601B2Ixi_mRvKsg_tyu16AtL1Z2jhopcIUvvI1QkUOC3qw=="
+    },
+    {
+      "title": "tencent.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5KFZ_kKBdlou6eeSlcUtxwB2MInYSEoNRd4PYWy64JFGaXO8UvkdalMGEi1l78tcdc9y-zgzihKGTCs-8OOToWLDGhDxnokTqs0jX0JCEY3u8IlUf9-twDBjaOvu8XSHiPIcMnoSii4YlYdR6Xg=="
+    },
+    {
+      "title": "csdn.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoxsO7tQYzdEwxzJ9TOPjIGPgeqz0rMskCs66O-MrXX6Y3rPOyHHnOAY6czBs9-rvF7eISsdfT3JRV1yBDUOgPLEg8iRGTbXW8NyQRC3q2XWh3457fJcBzyyFethPLYLAoEw7mPeKHwgqryRAf9_cTfbG2L4LW5D-H6A=="
+    },
+    {
+      "title": "cdnetworks.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkx-j7PR9AKu3NdirFJw90OIPqG8eQ9VHEcnxqrkJd6-SD-3u7RV-itVzAlyURj5EAjMXNzZREi6NzwbvtnxW3NFtYyM4PZzw1SpaRJGnhHnmVh3sACIlRE0HxyXbfxlmv_alNlLhuHm7cRwZrSq9jmPPkYz3n1L5mhw=="
+    },
+    {
+      "title": "cnblogs.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcMTH7Fs7icEyBgEDk1wZmhMX1Ew7BHDU8Bj6TtJ39ZSGfW_vbVSW1QxlmJM2MLCfI335ewKjmUOknc449C87ezgULqS30Ee-7A3N0RUvV8Mc7awQzI1RRAm7fp6WSMY6KPG7uSmjFSjU="
+    },
+    {
+      "title": "kumikomi.jp",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Llra8CvAfS02p0UuBOqDUeOBeUBYurAh9XTCe3SYE2woH_vPXn3QJC9yi-RRhP0ZqSldjYbBYCzu3Cn5YvHI3DyUwoauGhGJqSgXj974oaM9gG8w5t6Cw3-4d7SjQVKn"
+    },
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlcQgS3I16xotIK-nd9bJT3wgX8umJnmLaB86okGpWrvKsAThK4SjLrglSu6WIg0_1tNmT_dzAT_jZ16jwoQkqsOI7LFdvK8_-imoGcR1gXMqq1P4eYa4YxrZd8NkxksVMXXC3RUeF40JCVy5ajB-g-mezfzW5D0X5wBoJtVKS0Pdsd-Tj9AflD2u4FRI-I-7vsXJqc7G6BgcrV1VVIKN0Dbkf3wt4rnZb0-7WUDhopgXOnRsLlUuC2heFeVaUmWz3xUT_ExRP7p6Sb3bw71OS"
+    },
+    {
+      "title": "ithome.com.tw",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwdEoITOMPUyZAAPCM9dKCFqA7B2pCfpiOj42x7EcTL2NLEioBM5TPD3kA7Qa8aAIWLY_Rp14C6uF6KbWmsdL5AfAmUBGz0zXxR0iUOmPto_fJ-apZqM-Btkms7BduRbYXq4ksmtkwpHE="
+    },
+    {
+      "title": "checkpoint.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEad28cHIdP3VWrTzmU5EgrSFXBNmL90D23Z4jee9Ep-DSdITmQiaMKtZTiiUhVxtv_DJiLF7-0hoMn0uUc9gRP4AvDLM-1wMoOu-QBdH8xFMvH2hrc5R7dD5h89Fmh2p6XmLUJ82tXT6aIxSaWmBcVChd_flQwJeeKf7g4Hp3XiLA="
+    },
+    {
+      "title": "pages.dev",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERxUQtfEMpq494ImxERSn04tzSHDsxs12p9wCMRbaNYe41D8KLHx-aLrhC3yjr3P7ttZlcak1quMofIdhpkT0pGrRiTRjh8VTFq7c5XEbCTx3dmWnA-Gh8MndnZAQwapybk1VTDtZ-ntPMTiwo4F74vYNiwRN3Egc_"
+    }
+  ],
+  "id": "NET-012"
+}

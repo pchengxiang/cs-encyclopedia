@@ -1,0 +1,137 @@
+{
+  "name": {
+    "zh": "WebRTC",
+    "en": "Web Real-Time Communication"
+  },
+  "domain_category": {
+    "id": 3,
+    "name": "網路與通訊",
+    "description": "連結裝置、服務與資料的基礎"
+  },
+  "stage": "mature",
+  "development_stage": {
+    "value": "mature",
+    "label": "成熟階段"
+  },
+  "description": "WebRTC (Web Real-Time Communication) 是一個開源專案，透過應用程式介面 (APIs) 讓網頁瀏覽器和行動應用程式能夠進行即時通訊 (RTC)。它允許在網頁內直接進行音訊、視訊通訊和串流，實現點對點 (peer-to-peer) 直接通訊，無需安裝外掛程式或下載原生應用程式。WebRTC 規範由全球資訊網協會 (W3C) 和網際網路工程任務組 (IETF) 共同發布。",
+  "purpose": "WebRTC 的主要目的是為應用程式提供即時通訊能力，支援音訊、視訊和通用資料在點對點之間傳輸，讓開發者能夠建構強大的語音和視訊通訊解決方案。它旨在消除網路即時通訊對第三方外掛程式或專有軟體的依賴，並提供低延遲、安全的通訊方式。",
+  "paradigm": "點對點 (Peer-to-peer) 通訊；基於瀏覽器的 API；使用 UDP 進行媒體傳輸以實現低延遲；強制加密 (DTLS, SRTP)",
+  "key_points": [
+    "支援網頁瀏覽器與行動應用程式之間的即時音訊、視訊和資料傳輸。",
+    "採用點對點架構，減少對中介伺服器的依賴，實現超低延遲通訊。",
+    "無需安裝外掛程式或額外軟體，透過標準的 JavaScript API 即可在主流瀏覽器中原生運行。",
+    "內建強制加密機制，確保通訊安全。"
+  ],
+  "function_categories": {
+    "primary": {
+      "id": "06",
+      "name": "協定通訊型",
+      "label": "protocol&communication",
+      "description": "以共同規則規範設備或系統之間的資訊交換與傳輸。"
+    },
+    "secondary": [
+      {
+        "id": "05",
+        "name": "系統接口型",
+        "label": "system&interface",
+        "description": "建立不同系統之間的識別、存取與功能介接。"
+      },
+      {
+        "id": "04",
+        "name": "轉變資料型",
+        "label": "tech&info",
+        "description": "轉換、分析、生成、編碼或解讀資料與資訊。"
+      }
+    ]
+  },
+  "created_at": "2011-05-01",
+  "relations": [
+    {
+      "target_id": "LANG-004",
+      "target_name": "JavaScript",
+      "relation_type": "related_language"
+    },
+    {
+      "target_id": "NET-004",
+      "target_name": "WebSocket",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-010",
+      "target_name": "點對點網路 (P2P)",
+      "relation_type": "related_technology"
+    },
+    {
+      "target_id": "NET-009",
+      "target_name": "選擇性轉送單元",
+      "relation_type": "related_technology"
+    }
+  ],
+  "sources": [
+    {
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2a9-E8jf-zA-bvCgIqA6N1V5DiJhHRTPR-QmFy88OOS_WSJk-2Q3L1CVT7v22sZg1-HDAfcFOsxN6K9FBITZej9nO5_42Cyxbxh7dIJWTI5bV6ilEjEr9GZpiYUhnQw=="
+    },
+    {
+      "title": "webrtc.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8ohAkwR_lF-dx5CwhKbg3V-2pPRxbjgdCTKXMm6hllPERJoTLI-tOqrjiU7BKfdicDDTupwqXvkZKpElAvT6hJLtCvz-CHSIKkMbbNbM="
+    },
+    {
+      "title": "rtcleague.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0X56DhfEcIcns43mzRAo8q90xP0nqMPkIzzEAQFwShNg87P5ch2wlxw2crt7d16L6bgp-TElqAwSXqa8ZLDnzfRLYBmvF4sxp825R02EuR2wKeLUfqDuYQ53y3xs6FcDNRDbdfg=="
+    },
+    {
+      "title": "cloudflare.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-Lp6PAoQxHBT_84CdGsGfdR4kbDZvE-O8nCcvMaDvXdIuLE7xM0u-CRLP2k9rrM49EA2Gj36NNjOPe5TI_7Z-ZH37a-ABAv0wtiKt0fLNkzkwThHRY3CkoSeHuNL3U7M41ibrDRiVV0rcmWVZIJRrsJdQsmtT"
+    },
+    {
+      "title": "forasoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJH6jb7ncAcEDDVZqnrZSIWwyYV2ys2G2-ezEEIWkpjzxSnc_IZhAEbwjrry4v9ajzvQ7t4di-yTdassest23nk2KKPlwfEEL4L9DYgr6a-3YaOTpNxtTLPk2BynUM29QLmoYg4N_1OhdZdrdCePtQSr6t"
+    },
+    {
+      "title": "antmedia.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXGxOm8w1cEpyLiSLMpa9S5qymp7G6b0M4rZxe8xsdOwoJTSaVBFgLKyiyPgM_avw7eFGHI40a1AvL42fFd5rdNx_NIGAfOkuD2PQXyVclG3JiqBu5J0pzrKSZxNUZ5uX-ncyrwzOMASCpjchgQe79ZVd8"
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpiN7pVdtR4mhxltpmAed0HENVi34wBrE6Dx6OJ0naxfOuxCw3V1J1rfTJwMNJRWPo_ZPKD1RTwZPka04kyDwkP4IvjLmURReeQ52c-B00VeHtDXmgnZe3LWWF7_CdxkqfTUIbO-SWlkh3blqq5dyuP2NnPlwkDo6r5U61bRiweAYFBq2-Q-wzTCtCLhcItdCH8vup7qtV6x5K"
+    },
+    {
+      "title": "talkroute.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENUFbwdc8BBJQH9HtR2bso9OMy7DLQKwotVnZOPw84WYR-L2pOFumAzBXkboyWkjTIKoWUOz96PvuH0xg52iLcqXUNLo3HireqLmJYwdOnNirVEivb4LOY9IGzvqrzs7AdmD0sj8Bf2CFzEKBqqvtQXpRqmryHVqBBCagGf0WzITPW5jcYVWbPkxpdvBWpWg=="
+    },
+    {
+      "title": "nabto.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqtHHHyuaIh5QaDBS4D3xWIYXSafTOFVE4SPs5HdtWr2vUEqtASGg1OCiLHKGw5AUAy37xtUNC-KhFppJed2MoHRvNlt9nkNrQi3NMEimSZvuePOGmGA8L0LPWpScKKV8bQz4="
+    },
+    {
+      "title": "ably.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-ZZ2JR1Ha_Ag6VM_kD-ja2Zz2il31ts4JGy-UYjuj8Qk6RHPr4QoawzEK92kxHe30WQiUr7I0FmICjp4xBKwf4NMgkCRULBBMU7BipCVMv69_DfFuhuZ8XznssfrtGw=="
+    },
+    {
+      "title": "voipmonitor.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCP8aOPik3MOpNwN4Kx6VhKB6PNRKML29ItB7Qx728z1qHYDVAt1C-QCZVOYPvsbWwJeThIQtdp18ANZyaFEXR48qLR8N6mdQPbpUR4vYZ2C0aGM5WXftb3dXXQF8SX746djgQhJGWAFodzD7OcxRExNTWad9SihOyYUI2"
+    },
+    {
+      "title": "red5.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQs4d5WkGUgJns1rzd4wM3xWTd8Mfrrogx-APKqMflwrjxRuGHbfaXU4MUNqTcdnUjU10zuXti-6jaQGjVD9y4o9mfRhAqOATbJdDAJIBS7_YeR5-_btCIFoFKGe3DCBOrGYQh"
+    },
+    {
+      "title": "akamai.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHampZKEqg9vIXbDtvOc5iTCXHXhUdKW7sjls-E30_qzljwN17XoT0SJCIrV_Wi5TP37qGknCa0eWVi-Gv6-oM2aTeJ80iDLnbJy2d2vnnbuLQHFPPBRausXrnvpo2QJ_4hDb8oVb4BbtGwcdrb"
+    },
+    {
+      "title": "webrtcforthecurious.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDKpkn66E0P90uCaYJn5T7G7gncHxUj6s8y3iE1mtdZgJjs62bbsq9ZFoUJ6EayREfl5BP3-q1VpBuY-4ZQ08T0n0AjyrcD0OCZKCxx_jDrOgkFZ0ktAme2TXZsEtBSXLx4FCTpk1DBdkuItaL1XK4vK4WUw=="
+    },
+    {
+      "title": "ieee.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_4qbsn7aCTFErQmRBGf702IxtDyKpTo09nXWX4fVb8fWlUXVNismVQlepXOignViBXn5yucW30NVvCYfdtRhTBrji07hx8i9bL4vM8rvyxKE6i4_FYS7Wz8uXiKNmgYh_"
+    },
+    {
+      "title": "wowza.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKdIaUck-SLGxSUYZcS69m7SiLtHIkHfFBuO2AG8JqJanj1b-BQcbsimb_YxaV_xp8DIRfWY6WA2heDiSj5NQybru1q2eZ9uwNoa64evh_9dAJJyuI22gaTWdY2IYfIC3Dr6yX6jzNP_-H2OGoCyPgMYNiSv9zixEWOpHIjFGWCv1p_gG581B96EZvrkr6rNzaTA=="
+    }
+  ],
+  "id": "NET-007"
+}
