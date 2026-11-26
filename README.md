@@ -1,6 +1,6 @@
 # 知序 · 電腦科學百科
 
-以 React、TypeScript、Vite 與 Node.js 建置的響應式技術百科。後端以 `backend/data/` 中每筆一個 JSON 檔案裝載資料，前端首頁、技術索引與詳情頁透過 REST API 讀取。
+以 React、TypeScript 與 Vite 建置的響應式技術百科。正式建置時會將 `backend/data/` 中每筆一個 JSON 檔案彙整成 `public/data/technologies.json`，前端直接從靜態檔案載入資料，不需要 API 伺服器。
 
 ## 安裝與啟動
 
@@ -12,7 +12,7 @@ Copy-Item .env.example .env.local
 npm run dev
 ```
 
-`npm run dev` 會同時啟動前端與 API；API 預設位於 `http://localhost:3001`，Vite 會將 `/api` 請求轉送至後端。也可分別使用 `npm run dev:web`、`npm run dev:api`。
+`npm run dev` 會同時啟動前端與 API（本機 API 開發模式）；也可分別使用 `npm run dev:web`、`npm run dev:api`。
 
 Vite 會在終端機顯示本機網址。正式建置與預覽：
 
@@ -21,11 +21,13 @@ npm run build
 npm run preview
 ```
 
+建置會先將資料彙整至 `public/data/technologies.json`，輸出的 `dist/` 可部署到 Cloudflare Pages、GitHub Pages 等靜態主機。`dist/index.html` 需由 HTTP 網站主機提供，不適合直接以 `file://` 雙擊開啟。
+
 ## 環境變數
 
 | 變數 | 預設值 | 說明 |
 | --- | --- | --- |
-| `VITE_API_MODE` | `mock` | `mock` 使用本機 Mock adapter；`rest` 呼叫 REST API |
+| `VITE_API_MODE` | `static` | `static` 從靜態 JSON 讀取；`mock` 使用示範資料；`rest` 呼叫 REST API |
 | `VITE_API_BASE_URL` | 空字串 | REST API origin，例如 `https://api.example.com`，不含結尾斜線 |
 ## 獨立資料管理工具
 
